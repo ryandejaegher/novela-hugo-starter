@@ -1,6 +1,6 @@
 ---
 hero:
-  heading: Test
+  heading: Demo
   maxWidthPX: "652"
 
 ---
