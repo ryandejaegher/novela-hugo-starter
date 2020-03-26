@@ -5,6 +5,11 @@ pygmentsstyle: 'monokai'
 sectionPagesMenu: "main"
 
 # Theme settings
+---
+baseURL: https://example.com
+languageCode: en-us
+title: Ryan Dejaegher
+pygmentsstyle: monokai
 theme: novela
 paginate: 6
 social:
