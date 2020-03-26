@@ -8,13 +8,6 @@ fields:
     required: false
   label: Heading
   description: The text displayed in the hero
-- name: demo
-  type: text
-  config:
-    required: false
-  label: Demo
-  hidden: false
-  description: de
 - name: maxWidthPX
   type: number
   label: Max Width
