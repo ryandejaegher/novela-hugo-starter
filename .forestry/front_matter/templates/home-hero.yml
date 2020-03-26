@@ -2,11 +2,11 @@
 label: Home Hero
 hide_body: false
 fields:
-- name: hero_heading
+- name: hero
   type: text
   config:
     required: false
-  label: Hero Heading
+  label: Hero
   description: The text displayed in the hero
 - name: maxWidthPX
   type: number
