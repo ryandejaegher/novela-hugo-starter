@@ -6,5 +6,6 @@ hero:
 maxWidthPX: 652
 heading: Yo
 demo: ''
+hero_heading: Yo
 
 ---
