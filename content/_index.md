@@ -6,6 +6,5 @@ hero:
 maxWidthPX: 652
 heading: Test
 demo: ''
-draft: true
 
 ---
