@@ -4,7 +4,7 @@ hero:
     PA
   maxWidthPX: '652'
 maxWidthPX: 652
-heading: ''
+heading: Test
 demo: ''
 
 ---
