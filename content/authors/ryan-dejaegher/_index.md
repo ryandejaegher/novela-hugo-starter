@@ -8,5 +8,9 @@ featured: false
 social:
 - title: github
   url: https://github.com
+menu:
+  main:
+    name: Cool
+    weight: 1
 
 ---
