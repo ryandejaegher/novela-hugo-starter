@@ -15,10 +15,4 @@ social:
   youtube: "#"
 taxonomies:
   author: authors
-menu:
-  main:
-  - identifier: blog
-    name: This is the blog section
-    title: blog section
-    url: /blog/
-    weight: -110
+menu: main
