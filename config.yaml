@@ -5,7 +5,7 @@ title: Ryan Dejaegher
 pygmentsstyle: monokai
 theme: novela
 permalinks:
-  posts: /:title
+  posts: /:title/
 paginate: 6
 social:
   twitter: "#"
