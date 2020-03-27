@@ -3,6 +3,6 @@ languageCode: "en-us"
 title: "Ryan Dejaegher"
 pygmentsstyle: 'monokai'
 permalinks:
-  post: /:title/
+  posts: /:title/
 
 
