@@ -1,5 +1,5 @@
 ---
-title: Why we built a company before building a product
+title: Going Headless with Hugo and Forestry CMS
 date: 2019-04-30T04:00:00+00:00
 hero: "/images/hero-6.jpg"
 excerpt: this is my excerpt
