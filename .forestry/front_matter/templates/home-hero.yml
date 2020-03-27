@@ -1,6 +1,6 @@
 ---
 label: Home Hero
-hide_body: false
+hide_body: true
 fields:
 - name: heading
   type: text
