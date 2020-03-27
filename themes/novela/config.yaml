@@ -2,5 +2,7 @@ baseURL: "https://example.com"
 languageCode: "en-us"
 title: "Ryan Dejaegher"
 pygmentsstyle: 'monokai'
+permalinks:
+  posts: /:title/
 
 
