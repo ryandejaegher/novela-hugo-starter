@@ -6,6 +6,8 @@ bio: |
 avatar: "/images/Facebook _ Profile Picture.png"
 featured: false
 social:
+- title: facebook
+  url: https://www.facebook.com/ryan.dejaegher
 - title: twitter
   url: https://twitter.com/RyanDejaegher
 - title: github
