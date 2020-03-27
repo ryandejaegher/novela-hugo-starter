@@ -33,6 +33,8 @@ But it takes more than good ideas to build and grow a business. It takes people 
 
 But it takes more than good ideas to build and grow a business. It takes people to bring them into reality. Are those people collaborating and sharing their expertise, or are they in conflict and keeping it to themselves?
 
+<iframe width="560" height="315" src="[https://www.youtube.com/embed/7GBEXO-2480](https://www.youtube.com/embed/7GBEXO-2480 "https://www.youtube.com/embed/7GBEXO-2480")" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ## This is a secondary heading
 
 But it takes more than good ideas to build and grow a business. It takes people to bring them into reality. Are those people collaborating and sharing their expertise, or are they in conflict and keeping it to themselves?
