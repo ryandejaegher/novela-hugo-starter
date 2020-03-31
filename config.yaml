@@ -1,9 +1,11 @@
 ---
 baseURL: https://example.com
 languageCode: en-us
+# The Site Title
 title: Ryan Dejaeghers
 pygmentsstyle: monokai
 theme: novela
+# Changes the URL structure
 permalinks:
   post: /:title/
 paginate: 6
