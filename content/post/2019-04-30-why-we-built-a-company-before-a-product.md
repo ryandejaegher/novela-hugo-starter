@@ -1,11 +1,10 @@
 ---
 title: Going Headless with Hugo and Forestry CMS
-date: 2019-04-30T04:00:00+00:00
+date: 2019-04-30T04:00:00.000+00:00
 hero: "/images/hero-6.jpg"
 excerpt: this is my excerpt
 timeToRead: 21
-authors:
-- Thiago Costa
+authors: []
 
 ---
 Hello, world! This is a demo post for `hugo-theme-novela`. Novela is built by the team at [Narative](https://narative.co), and built for everyone that loves the web.
