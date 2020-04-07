@@ -3,7 +3,7 @@ authors = []
 date = 2020-04-07T04:00:00Z
 excerpt = "Get a branded color overlay for your Squarespace video with one CSS class"
 hero = ""
-timeToRead = 0
+timeToRead = nil
 title = "Color Overlay For Squarespace Background Video"
 
 +++
@@ -31,4 +31,4 @@ Just follow these steps
 1. Change the **`background`** to match your brand colors
 2. Experiment with the **`mix-blend-modes`** to see how it affects the color overlay. You can examples of the various blend modes in the Codepen below.
 
-{{< codepen MWwpYgz >}}
+{{< pen id="MWwpYgz" >}}
