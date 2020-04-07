@@ -19,6 +19,6 @@ Just follow these steps
 2. Change the **`background`** to match your brand colors
 3. Experiment with the **`mix-blend-modes`** to see how it affects the color overlay. You can examples of the various blend modes in the Codepen below.
 
-   ```.sqs-video-background:after { content:''; position:absolute; width:100%; height:100%; top:0; left:0; background: red; /* Change your color here: red, blue, or use gradients! _/ mix-blend-mode: multiply; /_ Experiment with blend modes (darken, overlay, screen, lighten) */ }```
+`.sqs-video-background:after { content:''; position:absolute; width:100%; height:100%; top:0; left:0; background: red; /* Change your color here: red, blue, or use gradients! _/ mix-blend-mode: multiply; /_ Experiment with blend modes (darken, overlay, screen, lighten) */ }`
 
 {{< pen id="MWwpYgz" >}}
