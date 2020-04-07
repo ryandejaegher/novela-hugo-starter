@@ -4,7 +4,7 @@ date: 2019-04-30T04:00:00.000+00:00
 hero: "/images/hero-6.jpg"
 excerpt: this is my excerpt
 timeToRead: 21
-authors: []
+authors: Ryan Dejaegher
 
 ---
 Hello, world! This is a demo post for `hugo-theme-novela`. Novela is built by the team at [Narative](https://narative.co), and built for everyone that loves the web.
