@@ -28,7 +28,7 @@ Just follow these steps
     	mix-blend-mode: multiply; /* Experiment with blend modes (darken, overlay, screen, lighten) */
     }
 
-2. Change the **`background`** to match your brand colors
-3. Experiment with the **`mix-blend-modes`** to see how it affects the color overlay. You can examples of the various blend modes in the Codepen below.
+1. Change the **`background`** to match your brand colors
+2. Experiment with the **`mix-blend-modes`** to see how it affects the color overlay. You can examples of the various blend modes in the Codepen below.
 
-{{< codepen id="MWwpYgz" >}}
+{{< codepen id=MWwpYgz >}}
