@@ -15,7 +15,7 @@ Let's change that with a quick CSS class that will give you a custom color overl
 
 Just follow these steps
 
-1\. Add the code to your Custom CSS (Design -> Custom CSS) in Squarespace
+1. Add the code to your Custom CSS (Design -> Custom CSS) in Squarespace
 
     .sqs-video-background:after {
     	content:'';
@@ -28,7 +28,7 @@ Just follow these steps
     	mix-blend-mode: multiply; /* Experiment with blend modes (darken, overlay, screen, lighten) */
     }
 
-1. Change the **`background`** to match your brand colors
-2. Experiment with the **`mix-blend-modes`** to see how it affects the color overlay. You can examples of the various blend modes in the Codepen below.
+2. Change the **`background`** to match your brand colors
+3. Experiment with the **`mix-blend-modes`** to see how it affects the color overlay. You can examples of the various blend modes in the Codepen below.
 
 {{< pen id="MWwpYgz" >}}
