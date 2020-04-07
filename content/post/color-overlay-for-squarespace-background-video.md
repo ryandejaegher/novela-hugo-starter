@@ -1,9 +1,9 @@
 +++
 authors = []
-date = 2020-04-07T04:00:00Z
+date = 2020-04-07T15:00:00Z
 excerpt = "Get a branded color overlay for your Squarespace video with one CSS class"
 hero = ""
-timeToRead = nil
+timeToRead = 2
 title = "Color Overlay For Squarespace Background Video"
 
 +++
