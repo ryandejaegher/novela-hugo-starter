@@ -1,5 +1,6 @@
 ---
-author: Ryan Dejaegher
+authors: 
+- Ryan Dejaegher
 date: 2020-04-07T04:00:00Z
 excerpt: "Get a branded color overlay for your Squarespace video with one CSS class"
 hero: ""
