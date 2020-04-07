@@ -31,4 +31,4 @@ Just follow these steps
 1. Change the **`background`** to match your brand colors
 2. Experiment with the **`mix-blend-modes`** to see how it affects the color overlay. You can examples of the various blend modes in the Codepen below.
 
-{{< codepen id=MWwpYgz >}}
+{{< codepen MWwpYgz >}}
