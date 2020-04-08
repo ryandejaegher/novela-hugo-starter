@@ -32,4 +32,3 @@ Just follow these steps
     mix-blend-mode: multiply; /* Experiment with blend modes (darken, overlay, screen, lighten) */
 }
 ```
-{{< pen id="MWwpYgz" >}}
