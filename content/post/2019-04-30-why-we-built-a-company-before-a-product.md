@@ -8,7 +8,7 @@ authors:
 - Ryan Dejaegher
 
 ---
-Hello, world! This is a demo post for `hugo-theme-novela`. Novela is built by the team at [Narative](https://narative.co), and built for everyone that loves the web. This is a test wow
+Hello, world! This is a demo post for `hugo-theme-novela`. Novela is built by the team at [Narative](https://narative.co), and built for everyone that loves the web. This is a test wow cool
 
 In my experience, the challenges that growing companies struggle with rarely stem from a lack of good ideas. Good ideas are everywhere. In my experience, the challenges that growing companies struggle with rarely stem from a lack of good ideas. Good ideas are everywhere. In my experience, the challenges that growing companies struggle with rarely stem from a lack of good ideas. Good ideas are everywhere.
 
