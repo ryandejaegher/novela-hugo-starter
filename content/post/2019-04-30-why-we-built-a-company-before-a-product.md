@@ -4,11 +4,11 @@ date: 2019-04-30T04:00:00.000+00:00
 hero: "/images/hero-6.jpg"
 excerpt: this is my excerpt
 timeToRead: 21
-authors: 
+authors:
 - Ryan Dejaegher
 
 ---
-Hello, world! This is a demo post for `hugo-theme-novela`. Novela is built by the team at [Narative](https://narative.co), and built for everyone that loves the web.
+Hello, world! This is a demo post for `hugo-theme-novela`. Novela is built by the team at [Narative](https://narative.co), and built for everyone that loves the web. This is a test
 
 In my experience, the challenges that growing companies struggle with rarely stem from a lack of good ideas. Good ideas are everywhere. In my experience, the challenges that growing companies struggle with rarely stem from a lack of good ideas. Good ideas are everywhere. In my experience, the challenges that growing companies struggle with rarely stem from a lack of good ideas. Good ideas are everywhere.
 
@@ -143,9 +143,5 @@ Strikethrough uses two tildes. ~~Scratch this.~~
 ⋅⋅⋅To have a line break without a paragraph, you will need to use two trailing spaces.⋅⋅ ⋅⋅⋅Note that this line is separate, but within the same paragraph.⋅⋅ ⋅⋅⋅(This is contrary to the typical GFM line break behaviour, where trailing spaces are not required.)
 
 * Unordered list can use asterisks
-
-
 * Or minuses
-
-
 * Or pluses
