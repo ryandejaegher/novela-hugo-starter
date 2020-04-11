@@ -4,5 +4,7 @@ title: "Ryan Dejaegher"
 pygmentsstyle: 'monokai'
 permalinks:
   posts: /:title/
+sectionPagesMenu: "mainmenu"
+
 
 
