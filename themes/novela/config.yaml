@@ -8,10 +8,10 @@ sectionPagesMenu: "mainmenu"
 
 [[menu]]
   [[menu.mainmenu]]
-  identifier: "home"
-  name: "Home"
-  url: "/"
-  weight: 1
+  identifier= "home"
+  name= "Home"
+  url= "/"
+  weight= 1
 
 
 
