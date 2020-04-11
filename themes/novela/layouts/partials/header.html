@@ -11,7 +11,7 @@
       <a class="sidebar-nav-item{{if or ($currentPage.IsMenuCurrent "main" .) ($currentPage.HasMenuCurrent "main" .) }} active{{end}}" href="{{ .URL }}" title="{{ .Title }}">{{ .Name }}</a>
       {{ end }}
   </nav>
-
+    <nav class="header-menu"> {{ partial "nav" . }}</nav>
     <div class="nav-controls">
       <button id="copyButton" class="icon-wrapper">
         {{ partial "icons/ui/link.html" . }}
