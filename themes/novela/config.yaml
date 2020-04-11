@@ -4,14 +4,5 @@ title: "Ryan Dejaegher"
 pygmentsstyle: 'monokai'
 permalinks:
   posts: /:title/
-sectionPagesMenu: "mainmenu"
-
-menu
-  -menu.mainmenu
-  identifier: "home"
-  name: "Home"
-  url: "/"
-  weight: 1
-
-
+sectionPagesMenu: mainmenu
 
