@@ -116,6 +116,11 @@
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
+            align-items: center;
+}
+
+.sidebar-nav-item {
+    padding: 8px 16px;
 }
 
 @media screen and (max-height: 800px) {
