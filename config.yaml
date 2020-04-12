@@ -13,7 +13,7 @@ permalinks:
 menu:
   mainmenu:
   - identifier: start-here
-    name: start-here
+    name: Start Here
     title: Start Here
     url: /start-here
     weight: -110
