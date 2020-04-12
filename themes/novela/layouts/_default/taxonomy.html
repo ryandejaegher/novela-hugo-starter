@@ -2,7 +2,7 @@
 
 {{ define "main" }}
   {{ partial "articles/hero.html" . }}
-
+  {{ printf "%#v" . }}
   {{ if isset .Data "Term" }}
     <h2><span class="hashtag">#</span>{{ .Data.Term }}</h2>
     <ul>
