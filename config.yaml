@@ -12,12 +12,18 @@ permalinks:
 
 menu:
   mainmenu:
-  - identifier: blog
-    name: This is the blog section
-    title: blog section
-    url: /blog/
+  - identifier: start-here
+    name: start-here
+    title: Start Here
+    url: /start-here
     weight: -110
   
+  - identifier: squarespace
+    name: Squarespace
+    title: Squarespace
+    url: /squarespace
+    weight: -110
+
 paginate: 6
 social:
   twitter: "#"

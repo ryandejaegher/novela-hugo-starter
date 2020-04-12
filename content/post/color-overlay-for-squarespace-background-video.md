@@ -6,7 +6,7 @@ excerpt: "Get a branded color overlay for your Squarespace video with one CSS cl
 hero: ""
 timeToRead: 2
 title: "Color Overlay For Squarespace Background Video"
-tags: ["development", "code"]
+tags: ["squarespace", "css","code snippet"]
 
 ---
 Squarespace lets you add video backgrounds to your pages and banners.
