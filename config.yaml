@@ -11,7 +11,7 @@ permalinks:
   tags: /:slug/
 
 menu:
-  mainmenu:
+  main:
   - identifier: start-here
     name: Start Here
     title: Start Here
