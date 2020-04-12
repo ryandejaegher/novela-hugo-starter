@@ -8,6 +8,7 @@ theme: novela
 # Changes the URL structure
 permalinks:
   post: /:title/
+  tags: /:slug/
 sectionPagesMenu: mainmenu
 paginate: 6
 social:
