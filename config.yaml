@@ -11,7 +11,7 @@ permalinks:
   tags: /:slug/
 
 menu:
-  main:
+  mainmenu:
   - identifier: blog
     name: This is the blog section
     title: blog section
