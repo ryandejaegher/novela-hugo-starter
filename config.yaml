@@ -19,3 +19,6 @@ social:
   youtube: "#"
 taxonomies:
   author: authors
+  category: categories
+  tag: tags
+  series: series
