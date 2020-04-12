@@ -2,7 +2,7 @@
 baseURL: https://example.com
 languageCode: en-us
 # The Site Title
-title: Ryan Dejaeghers
+title: Ryan Dejaegher
 pygmentsstyle: monokai
 theme: novela
 # Changes the URL structure
@@ -16,7 +16,7 @@ social:
   instagram: "#"
   linkedin: "#"
   dribbble: "#"
-  youtube: "#"
+  youtube: ""
 taxonomies:
   author: authors
   category: categories

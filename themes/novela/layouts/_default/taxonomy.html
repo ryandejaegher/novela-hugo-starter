@@ -1,6 +1,8 @@
-<!-- layouts/_default/list.html -->
+
+
 {{ define "main" }}
   {{ partial "articles/hero.html" . }}
+
   {{ if isset .Data "Term" }}
     <h2><span class="hashtag">#</span>{{ .Data.Term }}</h2>
     <ul>

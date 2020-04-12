@@ -1,8 +1,9 @@
-baseURL: "https://example.com"
+baseURL: "https://forestry.ryandejaegher.com"
 languageCode: "en-us"
 title: "Ryan Dejaegher"
 pygmentsstyle: 'monokai'
 permalinks:
   posts: /:title/
 sectionPagesMenu: mainmenu
+
 
