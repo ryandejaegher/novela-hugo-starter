@@ -1,0 +1,17 @@
+{{ define "main" }}
+Squarespace Test
+<section class="section narrow pt-40">
+
+    {{ partial "article/hero.html" . }}
+    {{ partial "article/progress.html" . }}
+
+    <article  id="articleContent" class="post-content">
+        {{ .Content }}
+    </article>
+    {{ template "_internal/disqus.html" . }}
+    {{ partial "article/next.html" . }}
+</section>
+
+{{ $script := resources.Get "js/progressBar.js" }}
+ <script src="{{ $script.RelPermalink }}"></script>
+{{ end }}
