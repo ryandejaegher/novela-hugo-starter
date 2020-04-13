@@ -1,0 +1,25 @@
+{
+  "name": "novela-hugo-starter",
+  "version": "1.0.0",
+  "description": "[![Netlify Status](https://api.netlify.com/api/v1/badges/8fd7da5f-0c4d-4a43-9e23-2d1baf0d35cc/deploy-status)](https://app.netlify.com/sites/hugo-novela-forestry/deploys)",
+  "main": "index.js",
+  "scripts": {
+    "build": "postcss tailwind/tailwind.css -o themes/novela/assets/css/tailwind.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ryandejaegher/novela-hugo-starter.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ryandejaegher/novela-hugo-starter/issues"
+  },
+  "homepage": "https://github.com/ryandejaegher/novela-hugo-starter#readme",
+  "dependencies": {
+    "autoprefixer": "^9.7.6",
+    "postcss-cli": "^7.1.0",
+    "tailwindcss": "^1.2.0"
+  }
+}
