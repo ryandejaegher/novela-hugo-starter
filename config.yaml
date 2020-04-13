@@ -11,9 +11,10 @@ permalinks:
   tags: /:slug/
   squarespace: /:title/
 
-  
-disqusShortname: ryandejaegher  
-# Adss custom Menu
+# Adds Disqus
+disqusShortname: ryandejaegher
+
+# Adds custom Menu
 menu:
   main:
   - identifier: start-here
@@ -28,14 +29,18 @@ menu:
     url: /squarespace/
     weight: 2
 
+
+params:
+  sitePadding: "px-20"
 paginate: 6
 social:
-  twitter: "#"
-  github: "#"
-  instagram: "#"
-  linkedin: "#"
-  dribbble: "#"
-  youtube: "#"
+  twitter: https://twitter.com/ryandejaegher
+  github: https://github.com/ryandejaegher
+  linkedin: ''
+  youtube: 'https://www.youtube.com/channel/UCsg_D6VRajsl7FoD6rrI89w/'
+  dribbble: 'https://dribbble.com/ryandejaegher'
+  instagram: ''
+  facebook: 'https://www.facebook.com/dejaegherryan/'
 taxonomies:
   author: authors
   tag: tags

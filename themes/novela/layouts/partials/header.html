@@ -1,4 +1,4 @@
-<Section class="section">
+<Section class="container mx-auto {{$.Site.Params.sitePadding}}">
   <div class="nav-container">
     <a class="logo-link" href="/">
       {{ partial "icons/ui/logo.html" . }}
@@ -30,11 +30,3 @@
 </div>
 </Section>
 
-{{ $script := resources.Get "js/toggleLogos.js" }}
-<script src="{{ $script.RelPermalink }}"></script>
-
-{{ $script := resources.Get "js/toggleColors.js" }}
-<script src="{{ $script.RelPermalink }}"></script>
-
-{{ $script := resources.Get "js/copyUrl.js" }}
-<script src="{{ $script.RelPermalink }}"></script>

@@ -1,7 +1,6 @@
 <html>
 
 {{ partial "head/head.html" . }}
-
 <body class="line-numbers">
 
     {{ $script := resources.Get "js/initColors.js" }}
@@ -9,7 +8,7 @@
 
     <div class="layout-styled">
 
-        {{ partial "header.html" . }}
+        {{ partial "header.html" .  }}
 
         {{ block "main" . }}
         
@@ -18,6 +17,14 @@
         {{ partial "footer.html" . }}
 
     </div>
+    {{ $script := resources.Get "js/toggleLogos.js" }}
+    <script src="{{ $script.RelPermalink }}"></script>
+    
+    {{ $script := resources.Get "js/toggleColors.js" }}
+    <script src="{{ $script.RelPermalink }}"></script>
+    
+    {{ $script := resources.Get "js/copyUrl.js" }}
+    <script src="{{ $script.RelPermalink }}"></script>
 
     {{ $script := resources.Get "js/prism.js" }}
     <script src="{{ $script.RelPermalink }}"></script>

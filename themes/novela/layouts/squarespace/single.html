@@ -1,5 +1,5 @@
 {{ define "main" }}
-Squarespace Test
+<!--Squarespace Single.html-->
 <section class="section narrow pt-40">
 
     {{ partial "article/hero.html" . }}
@@ -10,7 +10,7 @@ Squarespace Test
     </article>
     {{ template "_internal/disqus.html" . }}
     {{ partial "article/next.html" . }}
-</section>
+</section>  
 
 {{ $script := resources.Get "js/progressBar.js" }}
  <script src="{{ $script.RelPermalink }}"></script>

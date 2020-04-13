@@ -1,0 +1,20 @@
+{{ define "main" }}
+<div class="container mx-auto {{$.Site.Params.sitePadding}}">
+    {{.Params.Title}}
+
+    {{ $paginator := .Paginate (where .Data.Pages "Type" "post") }}
+{{ range $paginator.Pages }}
+{{ partial "ryan/card.html" . }}
+<li>
+    <a href="{{.Permalink}}">{{.Title}} {{ .Date.Format "January 2, 2006" }}</a>
+    {{ delimit .Params.authors ", " }}
+    <img src="{{.Params.hero}}">
+</li>
+{{ end }}
+<!-- Hugo's default pagination template. -->
+<div class="mx-auto">
+{{ template "_internal/pagination.html" . }}
+</div>
+</div>
+
+{{ end }}
