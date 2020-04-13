@@ -15,13 +15,13 @@ menu:
   - identifier: start-here
     name: Start Here
     title: Start Here
-    url: /start-here
+    url: /start-here/
     weight: 1
   
   - identifier: squarespace
     name: Squarespace
     title: Squarespace
-    url: /squarespace
+    url: /squarespace/
     weight: 2
 
 paginate: 6
