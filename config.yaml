@@ -11,6 +11,9 @@ permalinks:
   tags: /:slug/
   squarespace: /:title/
 
+  
+disqusShortname: ryan_dejaegher  
+# Adss custom Menu
 menu:
   main:
   - identifier: start-here

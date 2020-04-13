@@ -8,7 +8,7 @@
     <article  id="articleContent" class="post-content">
         {{ .Content }}
     </article>
-    
+    {{ template "_internal/disqus.html" . }}
     {{ partial "article/next.html" . }}
 </section>
 
