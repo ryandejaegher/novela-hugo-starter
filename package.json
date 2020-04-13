@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/ryandejaegher/novela-hugo-starter#readme",
   "dependencies": {
+    "@fullhuman/postcss-purgecss": "^2.1.2",
     "autoprefixer": "^9.7.6",
     "postcss-cli": "^7.1.0",
     "tailwindcss": "^1.2.0"
