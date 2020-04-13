@@ -4,7 +4,6 @@ let bodyElement = document.getElementsByTagName("BODY")[0];
 let moonOrSun = document.getElementById("moonOrSun");
 let sunRays = document.getElementById("sunRays");
 let moonMask = document.getElementById("moonMask");
-let disqusBody = document.querySelector("#disqus_thread body");
 
 initAnimation();
 
@@ -82,8 +81,6 @@ function makeDark(){
     bodyElement.style.setProperty('--horizontalRule', "rgba(255, 255, 255, 0.15)");
     bodyElement.style.setProperty('--inputBackground', "rgba(255, 255, 255, 0.07)");
     bodyElement.style.setProperty('--tooltip', "#000");
-    disqusBody.classList.remove('light');
-    disqusBody.classList.add('dark');
 }
 
 function makeLight(){
@@ -104,6 +101,4 @@ function makeLight(){
     bodyElement.style.setProperty('--horizontalRule', "");
     bodyElement.style.setProperty('--inputBackground', "");
     bodyElement.style.setProperty('--tooltip', "lightgrey");
-    disqusBody.classList.remove('dark');
-    disqusBody.classList.add('light');
 }
