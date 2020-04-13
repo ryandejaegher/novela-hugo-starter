@@ -9,6 +9,7 @@ theme: novela
 permalinks:
   post: /:title/
   tags: /:slug/
+  squarespace: /:title/
 
 menu:
   main:
