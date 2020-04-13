@@ -5,9 +5,9 @@
     <link rel="icon" href="/images/favicon.svg">
     {{ $style := resources.Get "scss/global.scss" | toCSS | minify | fingerprint }}
     <link rel="stylesheet" href="{{ $style.RelPermalink }}">
-    {{ $prism := resources.Get "css/prism.css" }}
+    {{ $prism := resources.Get "css/prism.css" | minify}}
     <link rel="stylesheet" href="{{ $prism.RelPermalink }}" />
-    {{ $tailwind := resources.Get "css/tailwind.css" }}
+    {{ $tailwind := resources.Get "css/tailwind.css" | minify }}
     <link rel="stylesheet" href="{{ $tailwind.RelPermalink }}" />
     <link href="https://fonts.googleapis.com/css?family=Merriweather&display=swap" rel="stylesheet">
     {{ partial "seo/print.html" . }}
