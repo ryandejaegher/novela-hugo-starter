@@ -29,7 +29,12 @@ menu:
     url: /squarespace/
     weight: 2
 
-
+markup:
+  defaultMarkdownHandler: goldmark
+  goldmark:
+    renderer:
+      unsafe: true
+      
 params:
   sitePadding: "px-20"
 paginate: 6
