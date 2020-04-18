@@ -1,19 +1,26 @@
 {{ define "main" }}
-<div class="container mx-auto px-20 mt-20 debug">
+<div class="container mx-auto px-20 mt-20">
     <h1>{{.Params.Title}}</h1>
-    {{.Params.excerpt}}
+    <p>
+        {{.Params.excerpt}}
+    </p>
     {{ $paginator := .Paginate (where .Data.Pages "Type" "squarespace") }}
+
+<!-- Render List of files from Content/Squarespace -->
 {{ range $paginator.Pages }}
-<article>
-    <a href="{{.Permalink}}">{{.Title}}</a>
+<article class="flex">
+    <h3>
+        <a href="{{.Permalink}}">{{.Title}}</a>
+    </h3>
     {{ range .Params.tags }}
         <span>{{ . }}</span>
     {{ end }}
 </article>
 {{ end }}
+
 <!-- Hugo's default pagination template. -->
 <div class="mx-auto">
-{{ template "_internal/pagination.html" . }}
+{{ partial "paginator/paginator.html" . }}
 </div>
 </div>
 

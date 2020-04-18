@@ -1,11 +1,12 @@
 ---
+title: "Color Overlay For Squarespace Background Video"
+excerpt: "Get a branded color overlay for your Squarespace video with one CSS class"
+slug:
+hero: ""
+date: 2020-04-07T04:00:00Z
 authors: 
 - Ryan Dejaegher
-date: 2020-04-07T04:00:00Z
-excerpt: "Get a branded color overlay for your Squarespace video with one CSS class"
-hero: ""
 timeToRead: 2
-title: "Color Overlay For Squarespace Background Video"
 tags: ["squarespace", "css","code snippet"]
 
 ---
@@ -33,4 +34,6 @@ Just follow these steps
     mix-blend-mode: multiply; /* Experiment with blend modes (darken, overlay, screen, lighten) */
 }
 ```
-{{< subscribe email="dejaegher.ryan@gmail.com" >}}
+<div class="mx-auto container debug">
+{{% mailerlite %}}
+</div>

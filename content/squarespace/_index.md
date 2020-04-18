@@ -5,4 +5,3 @@ draft: false
 excerpt:
 ---
 
-{{< subscribe email="your@email.com" >}}

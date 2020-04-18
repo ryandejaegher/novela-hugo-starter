@@ -1,4 +1,4 @@
 ---
 title: 'Start Here'
-type: "start-here"
+type: 'start-here'
 ---

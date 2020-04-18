@@ -1,13 +1,12 @@
 {{ define "main" }}
 <!--Squarespace Single.html-->
-<section class="section narrow pt-40">
+<section class="pt-40 container mx-auto">
 
     {{ partial "article/hero.html" . }}
     {{ partial "article/progress.html" . }}
 
-    <article  id="articleContent" class="post-content">
+    <article  id="articleContent" class="">
         {{ .Content }}
-        
     </article>
     {{ template "_internal/disqus.html" . }}
     {{ partial "article/next.html" . }}
