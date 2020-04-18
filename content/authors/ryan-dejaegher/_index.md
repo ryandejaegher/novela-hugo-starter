@@ -12,5 +12,7 @@ social:
   url: https://twitter.com/RyanDejaegher
 - title: github
   url: https://github.com/ryandejaegher
+- title: youtube
+- title: dribbble
 
 ---
