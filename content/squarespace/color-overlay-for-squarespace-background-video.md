@@ -35,4 +35,6 @@ Just follow these steps
 }
 ```
 
+<div class="mx-auto max-w-lg h-auto">
 {{% mailerlite %}}
+</div>

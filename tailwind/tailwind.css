@@ -1,3 +1,7 @@
 
 @tailwind components;
+
+p,ul,ol {
+    @apply max-w-xl;
+  }
 @tailwind utilities;

@@ -149,7 +149,7 @@ ol li > *{
 }
 
 ol li::before {
-    width: 3rem;
+    width: 2rem;
     display: inline-block;
     position: absolute;
     color: var(--articleText);
@@ -157,9 +157,9 @@ ol li::before {
     content: counter(list) ".";
     font-weight: 600;
     position: absolute;
-    left: -3rem;
-    top: -0.3rem;
-    font-size: 2rem;
+    left: -1.875rem;
+    top: -0.1rem;
+    font-size: 1.25rem;
 }
 
 @media screen and (max-width: 735px){

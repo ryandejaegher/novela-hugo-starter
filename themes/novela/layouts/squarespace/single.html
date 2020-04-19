@@ -5,7 +5,7 @@
     {{ partial "article/hero.html" . }}
     {{ partial "article/progress.html" . }}
 
-    <article  id="articleContent" class="max-w-lg">
+    <article  id="articleContent" class="">
         {{ .Content }}
     </article>
     {{ template "_internal/disqus.html" . }}
