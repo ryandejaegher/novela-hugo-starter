@@ -4,9 +4,9 @@
     <p>
         {{.Params.excerpt}}
     </p>
-    
+    <div class="flex flex-row row-wrap -mx-8">
 {{ partial "articles/squarespace-articles.html" . }}
-
+    </div>
 <!-- Hugo's default pagination template. -->
 <div class="mx-auto">
 {{ partial "paginator/paginator.html" . }}
