@@ -1,7 +1,11 @@
-
+@tailwind base;
 @tailwind components;
 
 p,ul,ol {
     @apply max-w-xl;
   }
+
+
 @tailwind utilities;
+
+/* Add your own utility classes here */
