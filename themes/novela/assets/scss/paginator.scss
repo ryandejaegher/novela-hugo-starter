@@ -24,16 +24,11 @@
         display: block;
         width: auto;
         height: auto;
-        padding: 0;
 
         .page-link{
             display: block;
             color: var(--grey);
-            min-width: 6rem;
-        }
-
-        .page-next, .page-prev{
-            color: var(--primary);
+            
         }
 
 
