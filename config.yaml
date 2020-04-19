@@ -39,7 +39,7 @@ enableInlineShortcodes: true
       
 params:
   sitePadding: "px-20"
-paginate: 6
+paginate: 10
 social:
   twitter: https://twitter.com/ryandejaegher
   github: https://github.com/ryandejaegher

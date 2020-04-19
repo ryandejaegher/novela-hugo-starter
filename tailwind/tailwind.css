@@ -2,7 +2,7 @@
 @tailwind components;
 
 p,ul,ol {
-    @apply max-w-xl;
+    @apply max-w-xl leading-normal mb-6;
   }
 
 

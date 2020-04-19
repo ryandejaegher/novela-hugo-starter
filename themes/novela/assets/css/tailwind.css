@@ -625,6 +625,8 @@ video {
 
 p,ul,ol {
   max-width: 36rem;
+  line-height: 1.5;
+  margin-bottom: 1.5rem;
 }
 
 .sr-only {
