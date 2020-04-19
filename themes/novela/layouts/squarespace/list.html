@@ -7,11 +7,11 @@
 
 <!-- Begin Article List Section -->
 <div class="debug-b">
-    {{ $paginator := .Paginate (where .Site.Pages "Type" "squarespace") }}
+    {{ $paginator := .Paginate (where .Pages "Type" "squarespace") }}
     <!-- Render List of files from Content/Squarespace -->
     {{ range $paginator.Pages }}
     <article class="flex flex-col w-full md:w-full debug">
-        <h3>
+        <h3 class="text-xl">
             <a href="{{.Permalink}}" class="text-indigo-600 hover:text-indigo-800">{{.Title}}</a>
         </h3>
     </article>

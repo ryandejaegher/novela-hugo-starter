@@ -8,10 +8,11 @@
     <nav class="sidebar-nav">
       {{ $currentPage := . }}
       {{ range .Site.Menus.main }}
-      <a class="sidebar-nav-item {{ if $currentPage.IsMenuCurrent "main" . }}active{{ end }}" href="{{ .URL }}" title="{{ .Title }}">{{ .Name }}</a>
+      <a class="sidebar-nav-item p-2 {{ if $currentPage.IsMenuCurrent "main" . }}active{{ end }}" href="{{ .URL }}" title="{{ .Title }}">{{ .Name }}</a>
       {{ end }}
   </nav>
  
+  <!--
     <div class="nav-controls">
       <button id="copyButton" class="icon-wrapper">
         {{ partial "icons/ui/link.html" . }}
@@ -27,6 +28,7 @@
         <div id="moonMask" class="moon-mask"></div>
       </button>
     </div>
+  -->
 </div>
 </Section>
 
