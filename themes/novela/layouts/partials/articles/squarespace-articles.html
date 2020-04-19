@@ -1,0 +1,11 @@
+{{ $paginator := .Paginate (where .Data.Pages "Type" "squarespace") }}
+<!-- Render List of files from Content/Squarespace -->
+{{ range $paginator.Pages }}
+<article class="flex flex-col w-1/3">
+    <img src="{{.Params.hero}}" class="h-64">
+    <h3>
+        <a href="{{.Permalink}}">{{.Title}}</a>
+    </h3>
+</article>
+
+{{ end }}

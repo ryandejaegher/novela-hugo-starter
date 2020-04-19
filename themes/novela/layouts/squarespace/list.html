@@ -4,19 +4,8 @@
     <p>
         {{.Params.excerpt}}
     </p>
-    {{ $paginator := .Paginate (where .Data.Pages "Type" "squarespace") }}
-
-<!-- Render List of files from Content/Squarespace -->
-{{ range $paginator.Pages }}
-<article class="flex">
-    <h3>
-        <a href="{{.Permalink}}">{{.Title}}</a>
-    </h3>
-    {{ range .Params.tags }}
-        <span>{{ . }}</span>
-    {{ end }}
-</article>
-{{ end }}
+    
+{{ partial "articles/squarespace-articles.html" . }}
 
 <!-- Hugo's default pagination template. -->
 <div class="mx-auto">
