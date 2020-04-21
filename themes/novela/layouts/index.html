@@ -3,20 +3,27 @@
 {{ end  }}
 
 {{ define "main" }}
-<section class="container mx-auto flex debug py-64">
-    <div class="col w-7/12 debug merriweather text-gray-900">
-        <h1 class="text-4xl text-gray-900">{{.Params.hero.heading}}</h1>
+
+<section class="container mx-auto flex pt-64 justify-between">
+    <div class="col w-6/12 debug merriweather text-gray-900">
+        <h1 class="text-4xl">{{.Params.hero.heading}}</h1>
         <div class="mt-8 text-2xl leading-normal">{{.Params.hero.excerpt}}</div>
+        <div class="mt-8 text-2xl leading-normal">{{.Params.hero.excerpt}}</div>
+
+        <div class="flex space-x-4 mt-8">
+            <a class="py-2 px-4 rounded bg-gray-400" href="#">Squarespace</a>
+            <a class="py-2 px-4 rounded bg-gray-400" href="#">WordPress</a>
+            <a class="py-2 px-4 rounded bg-gray-400" href="#">Creative Development</a>
+        </div>
+
+        {{if .Params.showMailingList }}
+            {{ partial "subscription/squarespace-subscription.html" . }}
+        {{ end }}
     </div>
-    <div class="col w-5/12 debug-b">
-        <img src="">
+    <div class="col w-5/12">
+        <img class="rounded-lg shadow-lg" src="{{.Params.hero.image}}">
     </div>
 </section>
-
-
-{{if .Params.showMailingList }}
-    {{.Params.showMailingList}}
-{{ end }}
 
 {{ end }}
 
