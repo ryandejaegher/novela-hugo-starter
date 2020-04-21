@@ -1,6 +1,25 @@
+{{ define "header" }}
+<!--Empty-->
+{{ end  }}
+
 {{ define "main" }}
-<section class="container mx-auto">
-    <h1>Yo</h1>
+<section class="container mx-auto flex debug py-64">
+    <div class="col w-7/12 debug merriweather text-gray-900">
+        <h1 class="text-4xl text-gray-900">{{.Params.hero.heading}}</h1>
+        <div class="mt-8 text-2xl leading-normal">{{.Params.hero.excerpt}}</div>
+    </div>
+    <div class="col w-5/12 debug-b">
+        <img src="">
+    </div>
 </section>
 
+
+{{if .Params.showMailingList }}
+    {{.Params.showMailingList}}
+{{ end }}
+
+{{ end }}
+
+{{ define "footer" }}
+<!--Empty-->
 {{ end }}

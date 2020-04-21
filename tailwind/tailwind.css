@@ -9,3 +9,7 @@ p,ul,ol {
 @tailwind utilities;
 
 /* Add your own utility classes here */
+
+.merriweather {
+  font-family: 'Merriweather';
+}

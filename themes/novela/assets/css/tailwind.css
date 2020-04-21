@@ -13954,6 +13954,10 @@ p,ul,ol {
 
 /* Add your own utility classes here */
 
+.merriweather {
+  font-family: 'Merriweather';
+}
+
 @media (min-width: 640px) {
   .sm\:sr-only {
     position: absolute;

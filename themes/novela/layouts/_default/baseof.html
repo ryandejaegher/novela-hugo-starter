@@ -7,15 +7,19 @@
     <script src="{{ $script.RelPermalink }}"></script>
 
     <div class="layout-styled px-4">
+        {{ block "header" . }}
 
-        {{ partial "header.html" .  }}
+            {{ partial "header.html" .  }}
 
+        {{ end }}
+        
         {{ block "main" . }}
         
         {{ end }}
         
-        {{ partial "footer.html" . }}
-
+        {{ block "footer" . }}
+            {{ partial "footer.html" . }}
+        {{ end }}
     </div>
     {{ $script := resources.Get "js/toggleLogos.js" }}
     <script src="{{ $script.RelPermalink }}"></script>
