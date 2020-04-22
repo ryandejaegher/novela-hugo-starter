@@ -5,6 +5,10 @@ p,ul,ol {
     @apply max-w-xl leading-normal mb-6;
   }
 
+li {
+  @apply mb-4;
+}  
+
 
 @tailwind utilities;
 

@@ -629,6 +629,10 @@ p,ul,ol {
   margin-bottom: 1.5rem;
 }
 
+li {
+  margin-bottom: 1rem;
+}
+
 .space-y-0 > :not(template) ~ :not(template) {
   --space-y-reverse: 0;
   margin-top: calc(0 * calc(1 - var(--space-y-reverse)));
