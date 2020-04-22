@@ -1,10 +1,16 @@
 ---
 hero:
   heading: Hi there! I'm Ryan Dejaegher
-  excerpt: Welcome to my online home where I share everything I’m learning about front-end web development, design, and digital marketing. If you’re solo creative, you’re in the right place.  
+  excerpt: 
   image: /hero.jpg
-showMailingList: true
+showMailingList: false
 links:
   
-  
 ---
+
+
+**Making a living on the web is hard.** But I plan to figure it out. 
+
+Here you'll find all my research, experiments, and lessons learned on **front-end web development**, **design**, and **digital marketing**. If you’re solo creative, you’re in the right place.
+
+Here's what I'm currently writing about

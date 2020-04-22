@@ -17,14 +17,13 @@ disqusShortname: ryandejaegher
 # Adds custom Menu
 menu:
   main:
-  - identifier: start-here
-    name: Start Here
-    title: Start Here
-    url: /start-here/
+  - identifier: about
+    name: About
+    title: About
+    url: /authors/ryan-dejaegher
     weight: 1
-  
   - identifier: squarespace
-    name: Squarespace
+    name: Squarespace Tutorials
     title: Squarespace
     url: /squarespace/
     weight: 2

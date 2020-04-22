@@ -5,7 +5,7 @@
   <link rel="icon" href="/images/favicon.svg">
   {{ $style := resources.Get "scss/global.scss" | toCSS | minify | fingerprint }}
   <link rel="stylesheet" href="{{ $style.RelPermalink }}">
-  {{ $prism := resources.Get "css/prism.css" | minify}}
+  {{ $prism := resources.Get "css/prism.css" | minify }}
   <link rel="stylesheet" href="{{ $prism.RelPermalink }}" />
   {{ $tailwind := resources.Get "css/tailwind.css" | minify }}
   <link rel="stylesheet" href="{{ $tailwind.RelPermalink }}" />
