@@ -2,7 +2,7 @@
 title: "Color Overlay Video"
 excerpt: "Get a branded color overlay for your Squarespace video with one CSS class"
 url: 
-hero: img/post-cover.png
+hero: post-cover.png
 date: 2020-04-07T04:00:00Z
 authors: 
 - Ryan Dejaegher
