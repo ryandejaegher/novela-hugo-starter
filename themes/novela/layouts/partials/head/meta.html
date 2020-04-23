@@ -67,7 +67,8 @@ Sitemap & RSS Feed Tags
 
 <!-- To make sure this renders only in the article page, we check the section -->
 {{ if eq .Section "squarespace" }} 
-
+{{.Section}}
+{{with .Params.images }} {{.Permalink}} {{end}}
   <!-- Pagination meta tags for list pages only -->
   {{ $paginator := .Paginate (where .Pages "Section" "squarespace") }}
   {{ if $paginator }}
@@ -116,14 +117,6 @@ Sitemap & RSS Feed Tags
       "image": {
         "@type": "imageObject",
         "url": "{{ with .Params.image }}{{ .Permalink }}{{ end }}"
-      },
-      "publisher": {
-        "@type": "Person",
-        "name": "{{ .Site.Title }}",
-        "logo": {
-          "@type": "imageObject",
-          "url": "https://ryandejaegher.com/images/favicon.svg"
-        }
       }
     }
   </script>
