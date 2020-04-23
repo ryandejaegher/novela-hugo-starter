@@ -3,7 +3,7 @@ title: "Color Overlay Video"
 description: I'm custom
 excerpt: "Get a branded color overlay for your Squarespace video with one CSS class"
 url: 
-hero: post-cover.png
+hero: /hero.jpg
 date: 2020-04-07T04:00:00Z
 authors: 
 - Ryan Dejaegher
