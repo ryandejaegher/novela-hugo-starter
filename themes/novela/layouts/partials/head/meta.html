@@ -1,11 +1,9 @@
 {{ partial "head/google-tag-manager" . }}
 
-{{if .IsHome}} 
+{{ if .IsHome }} 
   <title itemprop="name">{{ .Site.Title }} | {{ .Site.Params.tagline}}</title>
-{{end}}
-
-{{ if ne .IsHome}}
-  <title itemprop="name">{{ .Title }} | {{ .Site.Title }}</title>
+{{ else }}
+<title itemprop="name">{{ .Title }} | {{ .Site.Title }}</title>
 {{ end }}
 <meta property="og:title" content="{{ .Title }} | {{ .Site.Title }}" />
 <meta name="twitter:title" content="{{ .Title }} | {{ .Site.Title }}" />
