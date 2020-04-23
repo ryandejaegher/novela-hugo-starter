@@ -2,15 +2,13 @@
 title: "Color Overlay Video"
 excerpt: "Get a branded color overlay for your Squarespace video with one CSS class"
 url: 
-images: 
-hero: "https://source.unsplash.com/random?skate"
+hero: img/post-cover.png
 date: 2020-04-07T04:00:00Z
 authors: 
 - Ryan Dejaegher
 timeToRead: 2
 tags: ["squarespace", "css","code snippet"]
 description: I'm custom
-image: 
 
 
 ---
