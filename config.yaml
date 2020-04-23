@@ -55,7 +55,7 @@ params:
 paginate: 10
 
 social:
-  twitter: 'https://twitter.com/ryandejaegher'
+  twitter: "https://twitter.com/ryandejaegher"
   github: 'https://github.com/ryandejaegher'
   linkedin: ''
   youtube: 'https://www.youtube.com/channel/UCsg_D6VRajsl7FoD6rrI89w/'
