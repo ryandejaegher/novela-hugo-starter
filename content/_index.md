@@ -9,7 +9,9 @@ description: Cool
 ---
 
 
-**Making a living on the web is hard.** But I plan to figure it out. 
+**The web is hard.** Code, design, content, SEO, social media. WOOF! 
+
+But I plan to figure it out. 
 
 Here you'll find all my research, experiments, and lessons learned on **front-end web development**, **design**, and **digital marketing**. If you’re solo creative, you’re in the right place.
 

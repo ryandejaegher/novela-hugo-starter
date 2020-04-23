@@ -53,9 +53,7 @@ params:
   sitename: Ryan Dejaegher
   tagline: "Web Developer · Web Designer"
   og_image:
-  seo:
-    jsonld: true
-    debug: false
+
 
 paginate: 10
 
