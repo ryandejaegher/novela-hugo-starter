@@ -1,5 +1,5 @@
 ---
-title: "Color Overlay For Squarespace Background Video"
+title: "Color Overlay Video"
 excerpt: "Get a branded color overlay for your Squarespace video with one CSS class"
 url: 
 hero: "https://source.unsplash.com/random?skate"
