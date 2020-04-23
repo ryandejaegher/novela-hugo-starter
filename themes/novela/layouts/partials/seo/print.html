@@ -151,6 +151,7 @@
 {{- partial "seo/extend" . -}}
 
 {{ partial "seo/tags" (dict "page" $ "seo" ($.Scratch.Get "seo")) }}
+
 {{ with .Site.Params.seo.jsonld }}
 	{{ partial "seo/jsonld" (dict "page" $ "seo" ($.Scratch.Get "seo")) }}
 {{ end }}

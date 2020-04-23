@@ -51,6 +51,8 @@ params:
   twitterHandle: "@ryandejaegher"
   sitename:
   og_image:
+  seo:
+    jsonld: true
 
 paginate: 10
 
