@@ -8,6 +8,9 @@ authors:
 - Ryan Dejaegher
 timeToRead: 2
 tags: ["squarespace", "css","code snippet"]
+images:
+description: I'm custom
+
 
 ---
 Squarespace lets you add video backgrounds to your pages and banners.
