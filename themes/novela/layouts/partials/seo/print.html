@@ -126,7 +126,7 @@
 	---------------------------- */}}
 {{- $.Scratch.SetInMap "seo" "type" "website" -}}
 
-{{- if in (slice "blog" "news") .Type -}}
+{{- if in (slice "blog" "news" "squarespace") .Type -}}
 	{{- $.Scratch.SetInMap "seo" "type" "article" -}}
 {{ else if in (slice "article") .Type }}
 	{{- $.Scratch.SetInMap "seo" "type" "event" -}}
