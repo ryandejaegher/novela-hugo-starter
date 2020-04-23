@@ -9,6 +9,7 @@ authors:
 timeToRead: 2
 tags: ["squarespace", "css","code snippet"]
 description: I'm custom
+image: /hero.jpg
 
 
 ---
