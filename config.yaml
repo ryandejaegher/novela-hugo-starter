@@ -1,15 +1,24 @@
 ---
 baseURL: https://ryandejaegher.com/
 languageCode: en-us
+DefaultContentLangage: en
+
+enableRobotsTXT:
+canonifyURLs: true
+
 # The Site Title
 title: Ryan Dejaegher
+
 pygmentsstyle: monokai
 theme: novela
+
 # Changes the URL structure
 permalinks:
   post: /:title/
   tags: /:slug/
   squarespace: /:title/
+
+
 
 # Adds Disqus
 disqusShortname: ryandejaegher
@@ -38,7 +47,13 @@ enableInlineShortcodes: true
       
 params:
   sitePadding: "px-20"
+  author: "Ryan Dejaegher"
+  twitterHandle: "@ryandejaegher"
+  sitename:
+  og_image:
+
 paginate: 10
+
 social:
   twitter: https://twitter.com/ryandejaegher
   github: https://github.com/ryandejaegher

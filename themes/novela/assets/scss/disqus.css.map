@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,cAAc,CAAC;EACX,SAAS,EAAE,KAAK;EAChB,MAAM,EAAE,MAAM;EACd,UAAU,EAAE,IAAI;CACnB",
+    "sources": [
+        "disqus.scss"
+    ],
+    "names": [],
+    "file": "disqus.css"
+}

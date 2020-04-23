@@ -1,0 +1,25 @@
+#logo-desktop .change-fill {
+  fill: var(--primary);
+}
+
+#logo-mobile path {
+  fill: var(--primary);
+}
+
+.Logo__Desktop {
+  display: none;
+}
+
+.Logo__Mobile {
+  display: block;
+}
+
+@media screen and (min-width: 735px) {
+  .Logo__Desktop {
+    display: block;
+  }
+  .Logo__Mobile {
+    display: none;
+  }
+}
+/*# sourceMappingURL=logo.css.map */

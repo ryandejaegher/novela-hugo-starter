@@ -1,0 +1,30 @@
+p {
+  font-size: 18px;
+  color: var(--articleText);
+  font-family: var(--sanserif);
+  -webkit-transition: var(--color-mode-transition);
+  transition: var(--color-mode-transition);
+  margin: 0 auto 28.6px;
+  width: 100%;
+  max-width: 680px;
+}
+
+p b {
+  font-weight: 800;
+}
+
+/*DESKTOP*/
+@media screen and (max-width: 1070px) {
+  p {
+    max-width: 507px;
+  }
+}
+
+/*TABLET*/
+@media screen and (max-width: 735px) {
+  p {
+    max-width: 486px;
+    margin: 0 auto 25px;
+  }
+}
+/*# sourceMappingURL=paragraph.css.map */

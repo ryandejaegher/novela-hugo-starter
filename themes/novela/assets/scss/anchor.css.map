@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,CAAC,CAAA;EACC,kBAAkB,EAAE,4BAA4B;EAChD,aAAa,EAAE,4BAA4B;EAC3C,UAAU,EAAE,4BAA4B;EACxC,KAAK,EAAE,aAAa;CACrB;;AAED,AAAA,CAAC,AAAA,QAAQ,CAAC;EACR,KAAK,EAAE,aAAa;EACpB,OAAO,EAAE,IAAI;CACd;;AAED,AAAA,CAAC,AAAA,MAAM;AACP,CAAC,AAAA,MAAM,CAAC;EACN,eAAe,EAAE,SAAS;CAC3B",
+    "sources": [
+        "anchor.scss"
+    ],
+    "names": [],
+    "file": "anchor.css"
+}

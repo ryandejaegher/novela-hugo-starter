@@ -2,6 +2,10 @@
   <meta charset="utf-8">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- All the meta tags below will come under this partial -->
+
+  {{ partial "head/meta" . }}
   <link rel="icon" href="/images/favicon.svg">
   {{ $style := resources.Get "scss/global.scss" | toCSS | minify | fingerprint }}
   <link rel="stylesheet" href="{{ $style.RelPermalink }}">
