@@ -7,7 +7,7 @@
       <!-- End Google Tag Manager -->
   <!-- All the meta tags below will come under this partial -->
 
-  <!-- {{ partial "head/meta" . }} -->
+  {{ partial "head/meta" . }}
   <link rel="icon" href="/images/favicon.svg">
   {{ $style := resources.Get "scss/global.scss" | toCSS | minify | fingerprint }}
   <link rel="stylesheet" href="{{ $style.RelPermalink }}">
@@ -16,12 +16,13 @@
   {{ $tailwind := resources.Get "css/tailwind.css" | minify }}
   <link rel="stylesheet" href="{{ $tailwind.RelPermalink }}" />
   <link href="https://fonts.googleapis.com/css?family=Merriweather&display=swap" rel="stylesheet">
-  {{ partial "seo/print.html" . }}
+  
+  <!-- {{ partial "seo/print.html" . }} -->
   
   {{ with .Params.forestry_instant_preview_id }}
   {{- safeHTML (printf "<meta property='forestry_instant_preview_id' content='%s'>" .) -}}
   {{ end -}}
 
   {{ partial "head/mailerlite-script" . }}
-
+  <script>console.log({{ .Site }});console.log({{ .Page }});console.log({{ .Scratch }});</script>
 </head>

@@ -53,6 +53,7 @@ params:
   og_image:
   seo:
     jsonld: true
+    debug: false
 
 paginate: 10
 
