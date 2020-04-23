@@ -1,6 +1,6 @@
 {{ partial "head/google-tag-manager" . }}
 
-<title itemprop="name">{{ .Title }} | {{ .Site.Title }}</title>
+<title itemprop="name">{{ .Title }} | {{ .Site.Title }} | {{.Params.description }}</title>
 <meta property="og:title" content="{{ .Title }} | {{ .Site.Title }}" />
 <meta name="twitter:title" content="{{ .Title }} | {{ .Site.Title }}" />
 <meta itemprop="name" content="{{ .Title }} | {{ .Site.Title }}" />
@@ -114,7 +114,7 @@
       "dateModified": "{{ .Lastmod.Format "2006-01-02" }}",
       "image": {
         "@type": "imageObject",
-        "url": "{{ with .Params.images }}{{ .Permalink }}{{ end }}"
+        "url": "{{ with .Params.hero }}{{ . | absURL }}{{ end }}"
       }
     }
   </script>
