@@ -8,7 +8,8 @@ authors:
 - Ryan Dejaegher
 timeToRead: 2
 tags: ["squarespace", "css","code snippet"]
-og_image: post-cover.png
+images:
+- post-cover.png
 description: I'm custom
 
 
