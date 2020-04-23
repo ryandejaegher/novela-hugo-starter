@@ -1,32 +1,36 @@
 <html prefix="og: http://ogp.me/ns#" lang="{{ .Language }}">
 
 {{ partial "head/head.html" . }}
-<body class="line-numbers">
 
+<body class="line-numbers">
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5F3VZW7" height="0" width="0"
+            style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
     {{ $script := resources.Get "js/initColors.js" }}
     <script src="{{ $script.RelPermalink }}"></script>
 
     <div class="layout-styled px-4">
         {{ block "header" . }}
 
-            {{ partial "header.html" .  }}
+        {{ partial "header.html" .  }}
 
         {{ end }}
-        
+
         {{ block "main" . }}
-        
+
         {{ end }}
-        
+
         {{ block "footer" . }}
-            {{ partial "footer.html" . }}
+        {{ partial "footer.html" . }}
         {{ end }}
     </div>
     {{ $script := resources.Get "js/toggleLogos.js" }}
     <script src="{{ $script.RelPermalink }}"></script>
-    
+
     {{ $script := resources.Get "js/toggleColors.js" }}
     <script src="{{ $script.RelPermalink }}"></script>
-    
+
     {{ $script := resources.Get "js/copyUrl.js" }}
     <script src="{{ $script.RelPermalink }}"></script>
 
