@@ -30,7 +30,7 @@
   <link rel="alternate" hreflang="{{ .Language.Lang }}" href="{{ .Permalink }}" title="{{ .Language.LanguageName }}">
 {{ end }}
 
-{{ with .Params.image }} 
+{{ with .Params.hero }} 
   <meta itemprop="image" content="{{ . | absURL }}" />
   <meta property="og:image" content="{{ . | absURL }}" /> 
   <meta name="twitter:image" content="{{ . | absURL }}" />
