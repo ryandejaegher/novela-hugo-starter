@@ -1,8 +1,8 @@
 ---
 hero:
   heading: Hi there! I'm Ryan Dejaegher
-  excerpt: 
-  image: /hero.jpg
+
+images: /hero.jpg
 showMailingList: false
 links:
   
