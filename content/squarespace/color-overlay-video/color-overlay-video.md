@@ -9,7 +9,7 @@ authors:
 timeToRead: 2
 tags: ["squarespace", "css","code snippet"]
 images:
-    - "https://source.unsplash.com/random?snowboard"
+    - image-test.png
 description: I'm custom
 
 
