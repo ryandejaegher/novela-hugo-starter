@@ -10,7 +10,7 @@ timeToRead: 2
 tags: ["squarespace", "css","code snippet"]
 description: I'm custom
 images: 
-    - img/post-cover.png
+    - post-cover.png
 
 
 ---
