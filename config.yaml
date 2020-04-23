@@ -51,7 +51,7 @@ params:
   twitterHandle: "@ryandejaegher"
   description: "Web Developer · Web Designer"
   sitename: Ryan Dejaegher
-  tagline: Web Developer · Web Designer
+  tagline: "Web Developer · Web Designer"
   og_image:
   seo:
     jsonld: true

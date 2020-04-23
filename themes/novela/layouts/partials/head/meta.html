@@ -2,11 +2,13 @@
 
 {{ if .IsHome }} 
   <title itemprop="name">{{ .Site.Title }} | {{ .Site.Params.tagline}}</title>
+  <meta property="og:title" content="{{ .Site.Title }} | {{ .Site.Params.tagline}}" />
+<meta name="twitter:title" content="{{ .Site.Title }} | {{ .Site.Params.tagline}}" />
 {{ else }}
 <title itemprop="name">{{ .Title }} | {{ .Site.Title }}</title>
-{{ end }}
 <meta property="og:title" content="{{ .Title }} | {{ .Site.Title }}" />
 <meta name="twitter:title" content="{{ .Title }} | {{ .Site.Title }}" />
+{{ end }}
 <meta itemprop="name" content="{{ .Title }} | {{ .Site.Title }}" />
 <meta name="application-name" content="{{ .Title }} | {{ .Site.Title }}" />
 <meta property="og:site_name" content="{{ .Site.Params.sitename }}" />
