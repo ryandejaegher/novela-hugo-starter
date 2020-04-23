@@ -50,7 +50,8 @@ params:
   author: "Ryan Dejaegher"
   twitterHandle: "@ryandejaegher"
   description: "Web Developer · Web Designer"
-  sitename:
+  sitename: Ryan Dejaegher
+  tagline: Web Developer · Web Designer
   og_image:
   seo:
     jsonld: true

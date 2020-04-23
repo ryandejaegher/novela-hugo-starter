@@ -1,4 +1,5 @@
 ---
+title: 
 heading: Hi there! I'm Ryan Dejaegher
 hero: /hero.jpg
 showMailingList: false
