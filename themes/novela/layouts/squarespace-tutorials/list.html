@@ -11,7 +11,7 @@
 
 <!-- Begin Article List Section -->
 <div class="mt-8">
-    {{ $paginator := .Paginate (where .Data.Pages "Type" "squarespace") }}
+    {{ $paginator := .Paginate (where .Data.Pages "Type" "squarespace-tutorials") }}
     <!-- Render List of files from Content/Squarespace -->
     {{ range $paginator.Pages }}
     <article class="flex flex-col w-full md:w-full mt-4">
@@ -22,6 +22,7 @@
             {{range .Params.tags }}
                  <span>{{.}}</span>
             {{ end }}
+            {{partial "taxonomy/post-tags.html" . }}
         </div>
     </article>
     
