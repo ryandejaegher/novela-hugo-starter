@@ -5,7 +5,6 @@ hero: "https://source.unsplash.com/random?skate"
 date: 2020-04-07T04:00:00Z
 authors: 
 - Ryan Dejaegher
-timeToRead: 2
 tags: ["squarespace","code snippet"]
 description: 
 

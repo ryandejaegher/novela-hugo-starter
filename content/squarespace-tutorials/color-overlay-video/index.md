@@ -7,7 +7,6 @@ hero: /hero.jpg
 date: 2020-04-07T04:00:00Z
 authors: 
 - Ryan Dejaegher
-timeToRead: 2
 tags: ["squarespace", "css","code snippet"]
 image: /hero.jpg
 ---
