@@ -19,9 +19,6 @@
             <a href="{{.Permalink}}" class="text-indigo-600 hover:text-indigo-800">{{.Title}}</a>
         </h3>
         <div class="flex text-sm space-x-2 text-gray-500 mt-1">
-            {{range .Params.tags }}
-                 <span>{{.}}</span>
-            {{ end }}
             {{partial "taxonomy/post-tags.html" . }}
         </div>
     </article>

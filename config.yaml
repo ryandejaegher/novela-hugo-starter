@@ -15,7 +15,6 @@ theme: novela
 # Changes the URL structure
 permalinks:
   post: /:title/
-  tags: /:slug/
   squarespace: /:title/
 
 
@@ -34,7 +33,7 @@ menu:
   - identifier: squarespace
     name: Squarespace Tutorials
     title: Squarespace
-    url: /squarespace/
+    url: /squarespace-tutorials/
     weight: 2
 
 markup:
