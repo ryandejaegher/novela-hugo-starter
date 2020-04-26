@@ -1,0 +1,16 @@
+{{ define "main" }}
+<div class="container mx-auto">
+    
+    <h1 class="text-3xl md:text-5xl md:mt-16 font-bold mt-8 ">{{.Title}}</h1>
+    
+
+<div class="mt-8">
+    {{ range .Data.Terms.ByCount }}
+    <a href="{{.Page.Permalink}}" class="bg-gray-400">{{.Page.Title}}</a>
+    {{ end }}
+</div>
+</div>
+
+
+TAG TERMS HTML
+{{ end }}
