@@ -1,0 +1,21 @@
+{{define "main" }}
+<div class="container mx-auto">
+
+    {{.Title}}
+    {{.Content}}
+    {{ range where .Site.Sections "Section" "in" site.Params.mainSections }}
+    <h1>
+        {{.Title | title}}
+    </h1>
+        
+    <div>
+        
+        {{range .Pages }}
+            {{.Title}}
+            {{.Permalink}}
+        {{end}}
+    </div>
+    {{ end }}
+</div>
+
+{{ end }}

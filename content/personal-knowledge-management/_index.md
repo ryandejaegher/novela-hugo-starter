@@ -1,6 +1,7 @@
 ---
 title: "Personal Knowledge Management"
 description:
+draft: true
 ---
 
 Personal Knowledge Management is a practice more recently popularized by **Tiago Forte**. It's the practice of capturing our ideas, insights and experience that we encounter in our daily life. 

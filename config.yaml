@@ -52,6 +52,9 @@ params:
   sitename: Ryan Dejaegher
   tagline: "Web Developer · Web Designer"
   og_image:
+  mainSections: 
+    - squarespace-tutorials
+    - thoughts
 
 
 paginate: 10
