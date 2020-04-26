@@ -16,6 +16,7 @@ theme: novela
 permalinks:
   post: /:title/
   squarespace: /:title/
+  tags: /:title/
 
 
 
