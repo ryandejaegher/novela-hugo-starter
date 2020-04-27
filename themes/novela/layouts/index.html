@@ -21,7 +21,9 @@
         <img class="rounded-lg shadow-lg" src="{{.Params.hero}}">
     </div>
 </section>
-
+{{range .Site.Taxonomies.categories }}
+{{.Page.Title}} {{.Page.Permalink}}
+{{end}}
 {{ end }}
 
 {{ define "footer" }}

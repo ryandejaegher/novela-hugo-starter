@@ -1,8 +1,0 @@
-{{ define "main" }}
-{{ range .Pages }}
-<li>
-    <a href="{{.Permalink}}">{{.Title}}</a>
-    {{ delimit .Params.authors ", " }}
-</li>
-{{ end }}
-{{ end }}

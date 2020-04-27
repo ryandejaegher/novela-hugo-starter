@@ -9,7 +9,9 @@ tags: ["squarespace","code snippet"]
 description: 
 categories: 
     - squarespace tutorials
-
+    - cool
+    - wow
+    - zebra
 
 ---
 Squarespace lets you add video backgrounds to your pages and banners.

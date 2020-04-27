@@ -14,7 +14,7 @@ theme: novela
 
 # Changes the URL structure
 permalinks:
-  post: /:title/
+  pages: /:title/
   squarespace-tutorials: /:title/
   categories: /:title/
   articles: /:title/
