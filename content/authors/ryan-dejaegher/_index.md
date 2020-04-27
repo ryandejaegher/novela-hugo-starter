@@ -1,8 +1,7 @@
 ---
 title: Ryan Dejaegher
-bio: |
-  Written by You. This is where your author bio lives. Share your work, your
-  joys and of course, your Twitter handle.
+bio: 
+  Hi I'm Ryan Dejaegher. This is my space to navigate web development.
 avatar: "/images/Facebook_Profile Picture.png"
 featured: false
 social:
