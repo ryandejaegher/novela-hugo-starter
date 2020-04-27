@@ -11,7 +11,11 @@
         {{ .Content }}
     </article>
     {{ template "_internal/disqus.html" . }}
+
+   <!-- Hide related articles 
     {{ partial "article/next.html" . }}
+   -->
+
 </section>  
 
 {{ $script := resources.Get "js/progressBar.js" }}
