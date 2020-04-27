@@ -16,6 +16,7 @@ theme: novela
 permalinks:
   post: /:title/
   squarespace-tutorials: /:title/
+  categories: /:title/
 
 
 
@@ -30,11 +31,6 @@ menu:
     title: Start Here
     url: /start-here
     weight: 1
-  - identifier: squarespace
-    name: Squarespace Tutorials
-    title: Squarespace
-    url: /squarespace-tutorials/
-    weight: 2
   - identifier: articles
     name: Articles
     title: Articles
@@ -81,3 +77,6 @@ taxonomies:
   category: categories
   series: series
 
+log: true
+logFile: "hugo.log"
+verboseLog: true

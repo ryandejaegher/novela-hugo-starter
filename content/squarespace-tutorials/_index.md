@@ -2,6 +2,7 @@
 title: Squarespace Tutorials
 excerpt: 
 showMailingList: false
+description: cool
 
 ---
 
