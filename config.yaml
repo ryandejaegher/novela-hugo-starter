@@ -17,6 +17,7 @@ permalinks:
   post: /:title/
   squarespace-tutorials: /:title/
   categories: /:title/
+  articles: /:title/
 
 
 

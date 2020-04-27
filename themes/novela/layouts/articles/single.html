@@ -1,29 +1,20 @@
-{{define "main" }}
+{{ define "main" }}
+<!--Squarespace Single.html-->
+<section class="pt-16 md:pt-20 container mx-auto">
 
-<div class="container mx-auto">
-    <h1 class="text-3xl md:text-5xl md:mt-16 font-bold mt-8 ">{{.Params.Title}}</h1>
-    <div class="mt-8">
-        {{.Content}}
-    </div>
+    {{ partial "article/hero.html" . }}
 
-    <div class="mt-8 flex flex-col space-y-12 md:space-y-0 md:flex-row">
-        
-        {{range .Site.Taxonomies.categories}}
-        <div class="space-y-2 md:space-y-6 flex-1">
-            {{ partial "ryan/article-list-heading" . }}
-                <div class="space-y-5">
-                    {{ range .Pages }}
-                    {{ partial "ryan/article-list-item.html" . }}
-                    {{ end }}
-                </div>
-        </div>
+    <!-- Hide Progress Bar 
+    {{ partial "article/progress.html" . }}
+    -->    
 
-        {{end}}
+    <article id="articleContent" class="mt-12 flex flex-col items-center">
+        {{ .Content }}
+    </article>
+    {{ template "_internal/disqus.html" . }}
+    {{ partial "article/next.html" . }}
+</section>  
 
-
-    </div>
-
-</div>
-
-
+{{ $script := resources.Get "js/progressBar.js" }}
+ <script src="{{ $script.RelPermalink }}"></script>
 {{ end }}
