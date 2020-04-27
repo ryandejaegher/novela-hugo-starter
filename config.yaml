@@ -47,7 +47,6 @@ markup:
 enableInlineShortcodes: true
       
 params:
-  sitePadding: "px-20"
   author: "Ryan Dejaegher"
   twitterHandle: "@ryandejaegher"
   description: "Web Developer · Web Designer"
