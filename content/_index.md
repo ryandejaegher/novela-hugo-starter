@@ -14,5 +14,3 @@ description: Cool
 But I plan to figure it out. 
 
 Here you'll find all my research, experiments, and lessons learned on **front-end web development**, **design**, and **digital marketing**. If you’re solo creative, you’re in the right place.
-
-Here's what I'm currently writing about
