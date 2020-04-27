@@ -7,6 +7,9 @@ timeToRead: 5
 authors:
   - Dennis Brotzky
 draft: false
+categories:
+  - cool
+
 ---
 
 Some default content

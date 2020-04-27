@@ -7,7 +7,9 @@ authors:
 - Ryan Dejaegher
 tags: ["squarespace","code snippet"]
 description: 
-categories: ["Squarespace"]
+categories: 
+    - squarespace
+    - cool
 
 ---
 Squarespace lets you add video backgrounds to your pages and banners.

@@ -15,8 +15,7 @@ theme: novela
 # Changes the URL structure
 permalinks:
   post: /:title/
-  squarespace: /:title/
-  tags: /:title/
+  squarespace-tutorials: /:title/
 
 
 
@@ -26,16 +25,21 @@ disqusShortname: ryandejaegher
 # Adds custom Menu
 menu:
   main:
-  - identifier: about
-    name: About
-    title: About
-    url: /authors/ryan-dejaegher
+  - identifier: Start Here
+    name: Start Here
+    title: Start Here
+    url: /start-here
     weight: 1
   - identifier: squarespace
     name: Squarespace Tutorials
     title: Squarespace
     url: /squarespace-tutorials/
     weight: 2
+  - identifier: articles
+    name: Articles
+    title: Articles
+    url: /articles/
+    weight: 3
 
 markup:
   defaultMarkdownHandler: goldmark
@@ -56,6 +60,8 @@ params:
   mainSections: 
     - squarespace-tutorials
     - thoughts
+  mainCategories:
+    - squarespace
 
 
 paginate: 10
