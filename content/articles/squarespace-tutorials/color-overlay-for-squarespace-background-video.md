@@ -10,6 +10,7 @@ description:
 categories: 
     - squarespace tutorials
 
+
 ---
 Squarespace lets you add video backgrounds to your pages and banners.
 
