@@ -4,7 +4,6 @@
     <div class="mt-8">
         {{.Content}}
     </div>
-{{ partial "ryan/site-categories.html" . }}
 {{if .Params.showMailingList }}
     {{ partial "subscription/squarespace-subscription.html" . }}
 {{ end }}
