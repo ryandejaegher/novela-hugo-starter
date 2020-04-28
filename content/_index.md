@@ -4,7 +4,7 @@ heading: Hi there! I'm Ryan Dejaegher
 hero: /hero.jpg
 showMailingList: false
 links:
-description: Cool
+description: 
   
 ---
 
