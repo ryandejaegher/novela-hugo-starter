@@ -59,6 +59,8 @@ params:
   mainCategories:
     - squarespace
 
+imaging:
+  quality: 90
 
 paginate: 10
 

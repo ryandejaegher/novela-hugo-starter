@@ -18,11 +18,11 @@
     {{ end }}
     </div>
     <div class="col md:w-5/12">
-        <img class="rounded-lg shadow-lg" src="{{.Params.hero}}">
+{{ .Scratch.Set "image" "hero.jpg" }}
+{{ partial "images/responsive-image.html" . }}
     </div>
 
 </section>
-
 
 {{ end }}
 

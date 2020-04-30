@@ -5,6 +5,10 @@ hero: /hero.jpg
 showMailingList: false
 links:
 description: 
+
+resources:
+- src: './images/hero.jpg'
+  name: Instruction Guide
   
 ---
 
