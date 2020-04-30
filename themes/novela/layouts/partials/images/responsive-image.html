@@ -1,6 +1,7 @@
 {{$hero:= .Scratch.Get "image" }}
 {{ $image := .Page.Resources.GetMatch (printf "%s" $hero )  }}
-
+{{ $img := imageConfig "content/hero.jpg" }}
+{{$img.Width}}
 {{ $image32 := $image.Resize "32x" }}
 {{ $image480 := $image.Resize "480x" }}
 {{ $image800 := $image.Resize "800x" }}
