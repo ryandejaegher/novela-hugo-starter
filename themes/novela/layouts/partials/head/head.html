@@ -17,10 +17,11 @@
     <link rel="stylesheet" href="{{ $prism.RelPermalink }}" />
   {{ end }}
 
+  
+  {{ $tailwind := resources.Get "css/tailwind.css" }}
   {{ with .Site.Params.addSnipcart }}
   <link rel="stylesheet" href="https://cdn.snipcart.com/themes/v3.0.12/default/snipcart.css" />
   {{ end }}
-  {{ $tailwind := resources.Get "css/tailwind.css" }}
   <link rel="stylesheet" href="{{ $tailwind.RelPermalink }}" />
   <link href="https://fonts.googleapis.com/css?family=Merriweather&display=swap" rel="stylesheet">
   

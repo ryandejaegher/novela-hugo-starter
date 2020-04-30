@@ -55,7 +55,7 @@ params:
   og_image:
   debugGrid: true
   addNovelaScripts: false
-  addSnipcart: true
+  addSnipcart: false
   mainSections: 
     - squarespace-tutorials
     - thoughts
