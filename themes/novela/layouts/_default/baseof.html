@@ -47,6 +47,10 @@
     </div>
     <script src="https://cdn.snipcart.com/themes/v3.0.12/default/snipcart.js"></script>
     {{ end }}
+
+{{if .Site.Params.siteDebug }}
+   {{ partial "debug/hugoDebug.html" . }}
+{{end}}
 </body>
 
 </html>

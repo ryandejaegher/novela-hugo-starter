@@ -1,36 +1,35 @@
 <head>
-  <meta charset="utf-8">
-  <meta http-equiv="x-ua-compatible" content="ie=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <!-- Start Google Tag Manager -->
-  {{ partial "head/google-tag-manager" . }}
-      <!-- End Google Tag Manager -->
-  <!-- All the meta tags below will come under this partial -->
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Start Google Tag Manager -->
+    {{ partial "head/google-tag-manager" . }}
+    <!-- End Google Tag Manager -->
+    <!-- All the meta tags below will come under this partial -->
 
-  {{ partial "head/meta" . }} 
-  <link rel="icon" href="/images/favicon.svg">
-  {{ $style := resources.Get "scss/global.scss" | toCSS | minify | fingerprint }}
-  <link rel="stylesheet" href="{{ $style.RelPermalink }}">
+    {{ partial "head/meta" . }}
+    <link rel="icon" href="/images/favicon.svg">
+    {{ $style := resources.Get "scss/global.scss" | toCSS | minify | fingerprint }}
+    <link rel="stylesheet" href="{{ $style.RelPermalink }}">
 
-  {{ with .Params.codeHighlighting }}
+    {{ with .Params.codeHighlighting }}
     {{ $prism := resources.Get "css/prism.css" | minify }}
     <link rel="stylesheet" href="{{ $prism.RelPermalink }}" />
-  {{ end }}
-
-  
-  {{ $tailwind := resources.Get "css/tailwind.css" }}
-  {{ with .Site.Params.addSnipcart }}
-  <link rel="stylesheet" href="https://cdn.snipcart.com/themes/v3.0.12/default/snipcart.css" />
-  {{ end }}
-  <link rel="stylesheet" href="{{ $tailwind.RelPermalink }}" />
-  <link href="https://fonts.googleapis.com/css?family=Merriweather&display=swap" rel="stylesheet">
-  
-
-  
-  {{ with .Params.forestry_instant_preview_id }}
-  {{- safeHTML (printf "<meta property='forestry_instant_preview_id' content='%s'>" .) -}}
-  {{ end -}}
+    {{ end }}
 
 
-  {{ partial "head/mailerlite-script" . }}
+    {{ $tailwind := resources.Get "css/tailwind.css" }}
+    {{ with .Site.Params.addSnipcart }}
+    <link rel="stylesheet" href="https://cdn.snipcart.com/themes/v3.0.12/default/snipcart.css" />
+    {{ end }}
+    <link rel="stylesheet" href="{{ $tailwind.RelPermalink }}" />
+    <link href="https://fonts.googleapis.com/css?family=Merriweather&display=swap" rel="stylesheet">
+
+    {{ with .Params.forestry_instant_preview_id }}
+    {{- safeHTML (printf "<meta property='forestry_instant_preview_id' content='%s'>" .) -}}
+    {{ end -}}
+
+    <!-- Memberstack --> 
+<script src="https://api.memberstack.io/static/memberstack.js?custom" data-memberstack-id="c5077ab50d352466116219273c42ba6e"> </script> 
+    {{ partial "head/mailerlite-script" . }}
 </head>
