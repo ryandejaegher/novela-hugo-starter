@@ -13,12 +13,11 @@
   <link rel="stylesheet" href="{{ $style.RelPermalink }}">
 
   {{ with .Params.codeHighlighting }}
-
     {{ $prism := resources.Get "css/prism.css" | minify }}
     <link rel="stylesheet" href="{{ $prism.RelPermalink }}" />
-
   {{ end }}
-  {{ $tailwind := resources.Get "css/tailwind.css" | minify }}
+
+  {{ $tailwind := resources.Get "css/tailwind.css" }}
   <link rel="stylesheet" href="{{ $tailwind.RelPermalink }}" />
   <link href="https://fonts.googleapis.com/css?family=Merriweather&display=swap" rel="stylesheet">
   
