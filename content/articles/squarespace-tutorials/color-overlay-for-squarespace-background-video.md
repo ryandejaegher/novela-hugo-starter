@@ -6,6 +6,7 @@ date: 2020-04-07T04:00:00Z
 authors: 
     - Ryan Dejaegher
 tags: ["squarespace","code snippet"]
+codeHighlighting: true
 description: 
 categories: 
     - squarespace tutorials

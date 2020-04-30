@@ -1,5 +1,5 @@
 ---
-title: "{{ replace .Name "-" " " | title }}"
+title: "Draft"
 description: ""
 excerpt: "A default excerpt"
 date: 
@@ -16,4 +16,4 @@ draft: true
 
 Some default content
 
- {{< img src="filenameX" alt="alt text" >}}
+{{< img src="images/hero" alt="alt text" >}}

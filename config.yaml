@@ -53,6 +53,8 @@ params:
   sitename: Ryan Dejaegher
   tagline: "Web Developer · Web Designer"
   og_image:
+  debugGrid: true
+  addNovelaScripts: false
   mainSections: 
     - squarespace-tutorials
     - thoughts

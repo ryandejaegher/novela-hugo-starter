@@ -11,8 +11,13 @@
   <link rel="icon" href="/images/favicon.svg">
   {{ $style := resources.Get "scss/global.scss" | toCSS | minify | fingerprint }}
   <link rel="stylesheet" href="{{ $style.RelPermalink }}">
-  {{ $prism := resources.Get "css/prism.css" | minify }}
-  <link rel="stylesheet" href="{{ $prism.RelPermalink }}" />
+
+  {{ with .Params.codeHighlighting }}
+
+    {{ $prism := resources.Get "css/prism.css" | minify }}
+    <link rel="stylesheet" href="{{ $prism.RelPermalink }}" />
+
+  {{ end }}
   {{ $tailwind := resources.Get "css/tailwind.css" | minify }}
   <link rel="stylesheet" href="{{ $tailwind.RelPermalink }}" />
   <link href="https://fonts.googleapis.com/css?family=Merriweather&display=swap" rel="stylesheet">

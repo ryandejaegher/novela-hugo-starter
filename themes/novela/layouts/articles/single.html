@@ -18,6 +18,9 @@
 
 </section>  
 
+{{ with .Site.Params.addNovelaScripts }}
 {{ $script := resources.Get "js/progressBar.js" }}
  <script src="{{ $script.RelPermalink }}"></script>
+{{ end }}
+
 {{ end }}

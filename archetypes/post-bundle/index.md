@@ -10,10 +10,11 @@ categories: []
 tags: []
 series: []
 type:
-layout: 
+layout:
+codeHighlighting: 
 draft: true
 ---
 
 Some default content
 
- {{< img src="filenameX" alt="alt text" >}}
+{{< img src="" alt="alt text" >}}

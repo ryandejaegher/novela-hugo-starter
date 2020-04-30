@@ -57,5 +57,7 @@
     </div>
 {{ end }}
 
+{{ with .Site.Params.addNovelaScripts }}
 {{ $script := resources.Get "js/collapseAuthors.js" }}
 <script src="{{ $script.RelPermalink }}"></script>
+{{ end }}

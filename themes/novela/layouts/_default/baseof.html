@@ -10,7 +10,7 @@
     {{ $script := resources.Get "js/initColors.js" }}
     <script src="{{ $script.RelPermalink }}"></script>
 
-    <div class="layout-styled px-4">
+    <div class="layout-styled px-4 {{with .Site.Params.debugGrid}}debug-grid-16{{end}}">
         {{ block "header" . }}
 
         {{ partial "header.html" .  }}
@@ -25,6 +25,7 @@
         {{ partial "footer.html" . }}
         {{ end }}
     </div>
+    {{ with .Site.Params.addNovelaScripts }}
     {{ $script := resources.Get "js/toggleLogos.js" }}
     <script src="{{ $script.RelPermalink }}"></script>
 
@@ -33,9 +34,12 @@
 
     {{ $script := resources.Get "js/copyUrl.js" }}
     <script src="{{ $script.RelPermalink }}"></script>
-
+    {{ end }}
+{{ with .Params.codeHighlighting }}
+    <script>console.log('code highlighting active')</script>
     {{ $script := resources.Get "js/prism.js" }}
     <script src="{{ $script.RelPermalink }}"></script>
+    {{end}}
 </body>
 
 </html>
