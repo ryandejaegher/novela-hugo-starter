@@ -40,7 +40,7 @@ menu:
   - identifier: memberpress
     name: Memberpress
     title: Memberpress
-    url: /#/ms/signup/5eab2cd4a87b5d00040d9648
+    url: /#/ms/login
 
 markup:
   defaultMarkdownHandler: goldmark
