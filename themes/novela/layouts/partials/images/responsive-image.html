@@ -8,7 +8,7 @@
 {{ $image1920 := $image.Resize "1920x" }}
 
 <img class="rounded shadow-lg max-w-xl" 
-    sizes="100vw"
+    sizes="(min-width:1200px) 800px, 480px"
     src="data:image/jpeg;base64,{{ $image32.Content | base64Encode }}" 
     srcset="{{ $image480.RelPermalink }} 480w, {{ $image800.RelPermalink }} 800w, {{ $image1300.RelPermalink }} 1300w, {{ $image1920.RelPermalink }} 1600w"
     {{ with $image.Title }} alt="{{.}}" {{ end }}>
