@@ -37,10 +37,6 @@ menu:
     title: Articles
     url: /articles/
     weight: 3
-  - identifier: memberpress
-    name: Memberpress
-    title: Memberpress
-    url: /#/ms/signup/5eab2cd4a87b5d00040d9648
 
 markup:
   defaultMarkdownHandler: goldmark
@@ -60,7 +56,7 @@ params:
   debugGrid: true
   addNovelaScripts: false
   addSnipcart: false
-  siteDebug: true
+  siteDebug: false
   mainSections: 
     - squarespace-tutorials
     - thoughts
