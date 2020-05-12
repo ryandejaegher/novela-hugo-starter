@@ -53,7 +53,7 @@ params:
   sitename: Ryan Dejaegher
   tagline: "Web Developer · Web Designer"
   og_image:
-  debugGrid: true
+  debugGrid: false
   addNovelaScripts: false
   addSnipcart: false
   siteDebug: false
