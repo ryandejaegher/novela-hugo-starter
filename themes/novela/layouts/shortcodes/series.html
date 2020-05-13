@@ -1,0 +1,17 @@
+{{ $series := or (.Get 0) $.Page.Params.series }}
+<div>
+    <h4>Series: {{$series}}</h4>
+    <ol>
+        {{ range $index, $article := $.Site.Pages.ByDate }}
+            {{ if eq $article.Params.series $series}}
+            <li>
+                {{ if eq $article.Permalink $.Page.Permalink }}
+                    {{ $article.Params.title }}
+                    {{ else }}
+                    <a href="{{ $article.Permalink }}">{{ $article.Params.title }}</a>
+                    {{ end }}
+            </li>
+            {{ end }}
+            {{ end }}
+    </ol>
+</div>

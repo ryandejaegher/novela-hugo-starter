@@ -1,0 +1,3 @@
+
+{{/*  If there is a previous or next article in a section, this will display a link to the previous or next post  */}}
+{{ if .NextInSection }} <a href="{{.NextInSection.Permalink}}">Previous Post</a> {{ end }} {{ if .PrevInSection }} <a href="{{.PrevInSection.Permalink}}">Next Post: {{.PrevInSection.Title}}</a> {{ end }}

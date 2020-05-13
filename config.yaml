@@ -32,11 +32,11 @@ menu:
     title: Start Here
     url: /start-here
     weight: 1
-  - identifier: articles
-    name: Articles
-    title: Articles
-    url: /articles/
-    weight: 3
+  # - identifier: articles
+  #   name: Articles
+  #   title: Articles
+  #   url: /articles/
+  #   weight: 3
 
 markup:
   defaultMarkdownHandler: goldmark
@@ -45,6 +45,7 @@ markup:
       unsafe: true
 
 enableInlineShortcodes: true
+enableGitInfo: true
       
 params:
   author: "Ryan Dejaegher"

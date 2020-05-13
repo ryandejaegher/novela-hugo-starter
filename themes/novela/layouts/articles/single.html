@@ -17,12 +17,14 @@
     </article>
 
 
-    {{ if .Params.showDisqus}}
+    {{ if .Params.showDisqus }}
     {{ template "_internal/disqus.html" . }}
     {{ end }}
-    <!-- Hide related articles 
+    
+    {{ if.Params.showRelated }}
     {{ partial "article/next.html" . }}
-   -->
+    {{end}}
+    {{ if .NextInSection }} <a href="{{.NextInSection.Permalink}}">Previous Post</a> {{ end }} {{ if .PrevInSection }} <a href="{{.PrevInSection.Permalink}}">Next Post: {{.PrevInSection.Title}}</a> {{ end }}
 
 </section>
 

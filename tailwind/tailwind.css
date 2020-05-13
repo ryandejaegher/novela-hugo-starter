@@ -55,3 +55,10 @@ li {
 .debug-grid-16-solid {
   background:white url(data:image/gif;base64,R0lGODdhEAAQAPEAAADw/wDx/xXy/////ywAAAAAEAAQAAACIZyPKckYDQFsb6ZqD85jZ2+BkwiRFKehhqQCQgDHcgwEBQA7) repeat top left;
 }
+
+.breakout {
+  margin-left: calc(50% - 50vw);
+  margin-right: calc(50% - 50vw);
+}
+  
+  

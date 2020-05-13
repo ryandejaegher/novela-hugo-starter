@@ -1,4 +1,4 @@
-<section class="section nartrow">
+<section class="section narrow">
     <div id="articlesList" class="articles-list-container show-details">
         {{ $posts := partialCached "func/GetArticles" . "articles" }}
         {{ $paginator := .Paginate $posts }}
