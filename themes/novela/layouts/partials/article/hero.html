@@ -6,7 +6,7 @@
                 <div class="article-meta">
                     {{ partial "article/authors.html" . }}
                     {{ .Page.Date.Format "January 2, 2006" }}
-                    {{ with .Page.Params.timetoread }} • {{ . }} min read{{ end }}
+                    {{ with .Page.ReadingTime }} • {{ . }} min read{{ end }}
                 </div>
             </div>
         </header>

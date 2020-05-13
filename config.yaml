@@ -3,7 +3,7 @@ baseURL: https://ryandejaegher.com/
 languageCode: en-us
 DefaultContentLangage: en
 
-enableRobotsTXT:
+enableRobotsTXT: true
 canonifyURLs: true
 
 # The Site Title
@@ -56,7 +56,7 @@ params:
   debugGrid: false
   addNovelaScripts: false
   addSnipcart: false
-  siteDebug: false
+  siteDebug: true
   mainSections: 
     - squarespace-tutorials
     - thoughts
@@ -67,6 +67,10 @@ imaging:
   quality: 90
 
 paginate: 10
+
+sitemap:
+  ChangeFreq: weekly
+  Priority: .7
 
 social:
   twitter: "https://twitter.com/ryandejaegher"

@@ -1,7 +1,7 @@
 ---
 title: "Color Overlay For Squarespace Background Video"
 excerpt: "Get a branded color overlay for your Squarespace video with one CSS class"
-hero: "https://source.unsplash.com/random?skate"
+hero: 
 date: 2020-04-07T04:00:00Z
 authors: 
     - Ryan Dejaegher
@@ -10,7 +10,12 @@ codeHighlighting: true
 description: 
 categories: 
     - squarespace tutorials
-
+showMailingList: false
+showDisqus: false
+showRelated: false
+showTags: false
+showCategories: false 
+robotsdisallow: false
 ---
 Squarespace lets you add video backgrounds to your pages and banners.
 
@@ -36,7 +41,3 @@ Just follow these steps
     mix-blend-mode: multiply; /* Experiment with blend modes (darken, overlay, screen, lighten) */
 }
 ```
-
-<div class="mx-auto max-w-lg h-auto">
-{{% mailerlite %}}
-</div>

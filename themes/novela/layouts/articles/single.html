@@ -5,22 +5,30 @@
 
     <!-- Hide Progress Bar 
     {{ partial "article/progress.html" . }}
-    -->    
+    -->
 
     <article id="articleContent" class="mt-12 flex flex-col items-center">
         {{ .Content }}
+        {{if .Params.showMailingList}}
+        <div class="mx-auto max-w-lg h-auto">
+            {{ partial "subscription/squarespace-subscription.html" . }}
+        </div>
+        {{end}}
     </article>
-    {{ template "_internal/disqus.html" . }}
 
-   <!-- Hide related articles 
+
+    {{ if .Params.showDisqus}}
+    {{ template "_internal/disqus.html" . }}
+    {{ end }}
+    <!-- Hide related articles 
     {{ partial "article/next.html" . }}
    -->
 
-</section>  
+</section>
 
 {{ with .Site.Params.addNovelaScripts }}
 {{ $script := resources.Get "js/progressBar.js" }}
- <script src="{{ $script.RelPermalink }}"></script>
+<script src="{{ $script.RelPermalink }}"></script>
 {{ end }}
 
 {{ end }}

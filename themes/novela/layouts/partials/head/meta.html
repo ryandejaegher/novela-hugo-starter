@@ -123,7 +123,8 @@
   </script>
 {{ end }}
 
-<meta name="robots" content="index,follow" /> 
+{{ with .Params.robotsdisallow }}<meta name="robots" content="noindex, nofollow, noarchive">{{ else }}<meta name="robots" content="index, follow, archive">{{ end }}
+ 
 <meta name="googlebot" content="index,follow" />
 
 <meta name="twitter:site" content="{{ .Site.Params.twitterHandle }}">
