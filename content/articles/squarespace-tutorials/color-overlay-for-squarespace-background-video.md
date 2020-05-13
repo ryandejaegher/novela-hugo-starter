@@ -17,6 +17,7 @@ showTags: false
 showCategories: false 
 robotsdisallow: false
 ---
+
 Squarespace lets you add video backgrounds to your pages and banners.
 
 But the challenge with video is that unless the video was made to match your brand and color's, it may not fit with the rest of your design. The video background may also make it difficult to read text that's overlaid on the banner.
