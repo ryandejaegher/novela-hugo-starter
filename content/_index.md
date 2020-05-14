@@ -5,7 +5,7 @@ hero: /hero.jpg
 showMailingList: false
 links:
 description: 
-showMailingList: true
+showMailingList: false
 
 resources:
 - src: './images/hero.jpg'
