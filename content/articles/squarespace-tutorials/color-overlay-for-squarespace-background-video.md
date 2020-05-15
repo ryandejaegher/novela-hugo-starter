@@ -21,8 +21,6 @@ robotsdisallow: false
 
 Squarespace lets you add video backgrounds to your pages and banners.
 
-{{< livestream "https://app.livestorm.co/p/da103c9c-aa27-4e7f-a16d-c5e6d13f525b/form" >}}
-
 But the challenge with video is that unless the video was made to match your brand and color's, it may not fit with the rest of your design. The video background may also make it difficult to read text that's overlaid on the banner.
 
 Let's change that with a quick CSS class that will give you a custom color overlay to help tie the video in with your brand colors.
