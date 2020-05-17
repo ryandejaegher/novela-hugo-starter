@@ -17,6 +17,7 @@ showRelated: false
 showTags: false
 showCategories: false 
 robotsdisallow: false
+showPrevNext: false
 ---
 
 Squarespace lets you add video backgrounds to your pages and banners.
