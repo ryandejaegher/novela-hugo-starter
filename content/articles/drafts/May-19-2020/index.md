@@ -2,7 +2,7 @@
 title: "May 19 2020"
 description: ""
 excerpt: ""
-date: 
+date: 2020-05-19T04:00:00Z
 hero: 
 authors:
   - Ryan Dejaegher
