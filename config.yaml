@@ -41,8 +41,16 @@ menu:
 markup:
   defaultMarkdownHandler: goldmark
   goldmark:
+    extensions:
+      typographer: true
+    parser:
+      attribute: true
     renderer:
       unsafe: true
+  tableOfContents:
+    endLevel: 4
+    ordered: false
+    startLevel: 2
 
 enableInlineShortcodes: true
 enableGitInfo: true

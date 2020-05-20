@@ -32,6 +32,26 @@ Just follow these steps
 2. Change the **`background`** to match your brand colors
 3. Experiment with the **`mix-blend-modes`** to see how it affects the color overlay. You can examples of the various blend modes in the Codepen below.
 
+But the challenge with video is that unless the video was made to match your brand and color's, it may not fit with the rest of your design. The video background may also make it difficult to read text that's overlaid on the banner.
+
+Let's change that with a quick CSS class that will give you a custom color overlay to help tie the video in with your brand colors.
+
+Just follow these steps
+
+1. Add the code to your Custom CSS (Design -> Custom CSS) in Squarespace
+2. Change the **`background`** to match your brand colors
+3. Experiment with the **`mix-blend-modes`** to see how it affects the color overlay. You can examples of the various blend modes in the Codepen below.
+
+But the challenge with video is that unless the video was made to match your brand and color's, it may not fit with the rest of your design. The video background may also make it difficult to read text that's overlaid on the banner.
+
+Let's change that with a quick CSS class that will give you a custom color overlay to help tie the video in with your brand colors.
+
+Just follow these steps
+
+1. Add the code to your Custom CSS (Design -> Custom CSS) in Squarespace
+2. Change the **`background`** to match your brand colors
+3. Experiment with the **`mix-blend-modes`** to see how it affects the color overlay. You can examples of the various blend modes in the Codepen below.
+
 ```css
 .sqs-video-background:after {
     content:'';

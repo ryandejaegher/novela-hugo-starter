@@ -6,8 +6,8 @@
                 <div class="article-meta">
                     {{ partial "article/authors.html" . }}
                     {{ .Page.Date.Format "January 2, 2006" }}
-                    {{ with .Page.ReadingTime }} • {{ . }} min read{{ end }}
-                    {{/*  {{with .Page.Lastmod.Format "January 2, 2006"}} {{ . }} {{end}}  */}}
+                    {{with .Page.Lastmod.Format "January 2, 2006"}} Updated: {{ . }} {{end}}
+                    {{ with .Page.ReadingTime }} • {{ . }} min read{{ end }} 
                 </div>
             </div>
         </header>

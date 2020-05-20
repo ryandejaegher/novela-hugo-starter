@@ -2,7 +2,7 @@
 title: "{{ replace .Name "-" " " | title }}"
 description: ""
 excerpt: "A default excerpt"
-date: 
+date: {{ .Date }}
 hero: /images/hero-3.jpg
 authors:
   - Ryan Dejaegher
@@ -17,4 +17,3 @@ draft: true
 
 Some default content
 
-{{< img src="" alt="alt text" >}}

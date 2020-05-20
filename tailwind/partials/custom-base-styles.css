@@ -1,0 +1,9 @@
+@import './article-base.css';
+
+
+p,
+ul,
+ol {
+  @apply max-w-xl leading-normal;
+}
+
