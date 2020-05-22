@@ -1,0 +1,14 @@
+title: Example Button
+context:
+    text: I am Enabled!
+    is-enabled: true
+variants:
+- name: warning
+  context:
+    modifier: alert
+    text: This is a warning banner
+    class: bg-red-900
+- name: success
+  context:
+    modifier: success
+    text: This is a success banner

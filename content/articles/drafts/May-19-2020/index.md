@@ -1,5 +1,5 @@
 ---
-title: "May 19 2020"
+title: "May 19, 2020"
 description: ""
 excerpt: ""
 date: 2020-05-19T04:00:00Z
@@ -22,8 +22,8 @@ Everyone starts from scratch and the people that are great at what they do don't
 There are a few questions that have been a constant source of friction to fully embracing larning in public.
 
 - What does learning in public look like when you don't have the answers?
-- What would it look like if your writing and thoughts were being published and udpated throughout the day?
-- What are the goals or outcomes when learning in public? Is it still valuable if you're the only one learning. 
+- What would it look like if your writing and thoughts were being published and updated throughout the day?
+- What are the goals or outcomes when learning in public? Is it still valuable if you're the only one learning? 
 
 Learning in public does require a bit of a perspective shift away from "building your authority", the sole of purpose of writing from a content marketing view. 
 
