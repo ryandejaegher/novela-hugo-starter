@@ -1,8 +1,5 @@
 ---
 title: About
-menu:
-  main:
-    weight: 2
 
 ---
 ## Heading 1
