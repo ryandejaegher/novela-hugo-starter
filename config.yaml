@@ -2,42 +2,24 @@
 baseURL: https://ryandejaegher.com/
 languageCode: en-us
 DefaultContentLangage: en
-
 enableRobotsTXT: true
 canonifyURLs: true
-
-# The Site Title
 title: Ryan Dejaegher
-
 pygmentsstyle: monokai
 theme: novela
-
-# Changes the URL structure
 permalinks:
-  pages: /:title/
-  squarespace-tutorials: /:title/
-  categories: /:title/
-  articles: /:title/
-
-
-
-# Adds Disqus
+  pages: "/:title/"
+  squarespace-tutorials: "/:title/"
+  categories: "/:title/"
+  articles: "/:title/"
 disqusShortname: ryandejaegher
-
-# Adds custom Menu
 menu:
   main:
-  # - identifier: Start Here
-  #   name: Start Here
-  #   title: Start Here
-  #   url: /start-here
-  #   weight: 1
-  - identifier: articles
+  - url: "/articles/"
     name: Articles
     title: Articles
-    url: /articles/
-    weight: 3
-
+    weight: 1
+    identifier: articles
 markup:
   defaultMarkdownHandler: goldmark
   goldmark:
@@ -51,51 +33,43 @@ markup:
     endLevel: 4
     ordered: false
     startLevel: 2
-
 enableInlineShortcodes: true
 enableGitInfo: true
-      
 params:
-  author: "Ryan Dejaegher"
+  author: Ryan Dejaegher
   twitterHandle: "@ryandejaegher"
-  description: "Web Developer · Web Designer"
+  description: Web Developer · Web Designer
   sitename: Ryan Dejaegher
-  tagline: "Web Developer · Web Designer"
-  og_image:
+  tagline: Web Developer · Web Designer
+  og_image: 
   debugGrid: false
   addNovelaScripts: false
   addSnipcart: false
   siteDebug: true
-  mainSections: 
-    - squarespace-tutorials
-    - thoughts
+  mainSections:
+  - squarespace-tutorials
+  - thoughts
   mainCategories:
-    - squarespace
-
+  - squarespace
 imaging:
   quality: 90
-
 paginate: 10
-
 sitemap:
   ChangeFreq: weekly
-  Priority: .7
-
+  Priority: 0.7
 social:
-  twitter: "https://twitter.com/ryandejaegher"
-  github: 'https://github.com/ryandejaegher'
+  twitter: https://twitter.com/ryandejaegher
+  github: https://github.com/ryandejaegher
   linkedin: ''
-  youtube: 'https://www.youtube.com/channel/UCsg_D6VRajsl7FoD6rrI89w/'
-  dribbble: 'https://dribbble.com/ryandejaegher'
+  youtube: https://www.youtube.com/channel/UCsg_D6VRajsl7FoD6rrI89w/
+  dribbble: https://dribbble.com/ryandejaegher
   instagram: ''
-  facebook: 'https://www.facebook.com/dejaegherryan/'
-
+  facebook: https://www.facebook.com/dejaegherryan/
 taxonomies:
   author: authors
   tag: tags
   category: categories
   series: series
-
 log: true
-logFile: "hugo.log"
+logFile: hugo.log
 verboseLog: true
