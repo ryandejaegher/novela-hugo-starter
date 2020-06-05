@@ -1,14 +1,16 @@
 title: Example Button
 context:
-    text: I am Enabled!
+    text: Primary Button
     is-enabled: true
+    class: bg-indigo-400
 variants:
 - name: warning
   context:
     modifier: alert
-    text: This is a warning banner
-    class: bg-red-900
+    text: Cancel
+    class: bg-red-400
 - name: success
   context:
     modifier: success
-    text: This is a success banner
+    text: Success
+    class: bg-teal-400
