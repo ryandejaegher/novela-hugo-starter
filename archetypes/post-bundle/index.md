@@ -15,5 +15,5 @@ codeHighlighting: false
 draft: true
 ---
 
-Some default content
+
 
