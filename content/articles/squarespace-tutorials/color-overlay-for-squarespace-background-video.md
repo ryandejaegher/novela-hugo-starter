@@ -11,10 +11,11 @@ categories:
 tags: ["squarespace","code snippet"]
 series: "Wow so cool"
 codeHighlighting: true
-showMailingList: false
+showhugMailingList: false
 showDisqus: false
 showRelated: false
 showTags: false
+test: true
 showCategories: false 
 robotsdisallow: false
 showPrevNext: false
