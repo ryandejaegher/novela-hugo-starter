@@ -12,7 +12,7 @@ tags: ["squarespace","css"]
 series: 
 codeHighlighting: true
 showMailingList: false
-Disqus: false
+showDisqus: true
 test: true
 showRelated: false
 showTags: false
