@@ -11,13 +11,7 @@ categories:
 tags: ["squarespace","css"]
 series: 
 codeHighlighting: true
-showMailingList: false
-showDisqus: false
-showRelated: false
-showTags: false
-showCategories: false 
-robotsdisallow: false
-showPrevNext: false
+
 ---
 
 ## Why Learn CSS? { class="text-2xl mb-6"}
