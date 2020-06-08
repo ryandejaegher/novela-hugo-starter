@@ -14,11 +14,7 @@ tags:
 series: 
 codeHighlighting: false
 showMailingList: false
-<<<<<<< HEAD
 showDisqus: true
-=======
-showDisqus: false
->>>>>>> f32033b65e4d67d316031b438f6a91b3a50de9b3
 showRelated: false
 showTags: false
 showCategories: false
