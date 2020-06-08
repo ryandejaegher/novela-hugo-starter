@@ -13,6 +13,7 @@ series:
 codeHighlighting: true
 showMailingList: false
 showDisqus: false
+test: true
 showRelated: false
 showTags: false
 showCategories: false 
