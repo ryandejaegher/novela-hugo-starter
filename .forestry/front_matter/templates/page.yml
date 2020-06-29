@@ -16,3 +16,8 @@ fields:
   config:
     min: 
     max: 
+- name: post_config
+  type: include
+  config: {}
+  template: test
+  label: Post Config
