@@ -1,4 +1,33 @@
 ---
 label: Page Hero
 hide_body: true
-fields: []
+fields:
+- name: heading
+  type: text
+  config:
+    required: false
+  label: Heading
+- name: subheader
+  type: text
+  config:
+    required: false
+  label: Subheader
+- name: background_image
+  type: file
+  config:
+    maxSize: 64
+  label: Background Image
+- name: size
+  type: select
+  default: []
+  config:
+    required: false
+    options:
+    - Big
+    - Small
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: Size
