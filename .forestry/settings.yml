@@ -19,13 +19,6 @@ sections:
 - type: document
   path: content/_index.md
   label: Home
-- type: directory
-  path: content/post
-  label: Posts
-  create: all
-  match: "**/*"
-  templates:
-  - post
 - type: heading
   label: Data
 - type: directory
