@@ -29,6 +29,6 @@
     {{- safeHTML (printf "<meta property='forestry_instant_preview_id' content='%s'>" .) -}}
     {{ end -}}
     {{ if .Params.showMailingList}}
-    {{ partial "head/mailerlite-script" . }}
+    {{ partialCached "head/mailerlite-script" . }}
     {{end}}
 </head>

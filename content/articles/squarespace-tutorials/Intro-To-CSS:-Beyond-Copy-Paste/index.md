@@ -13,7 +13,7 @@ tags:
 - css
 series: Intro To CSS
 codeHighlighting: true
-showMailingList: shopify
+showMailingList: squarespace
 showDisqus: true
 showRelated: false
 showTags: false

@@ -1,0 +1,10 @@
+{{"<!--Start partials/simple-nav.html-->" | safeHTML}}
+
+<nav class="sidebar-nav">
+    {{ $currentPage := . }}
+    {{ range .Site.Menus.main }}
+    <a class="sidebar-nav-item p-2 text-indigo-400 {{ if $currentPage.IsMenuCurrent "main" . }}active{{ end }}" href="{{ .URL }}" title="{{ .Title }}">{{ .Name }}</a>
+    {{ end }}
+</nav>
+
+{{"<!--End partials/simple-nav.html-->" | safeHTML}}

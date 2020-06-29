@@ -1,6 +1,6 @@
 ---
 title: Articles
-showMailingList: shopify
+showMailingList: 
 
 ---
 

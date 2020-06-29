@@ -9,13 +9,14 @@
     </div>
     {{if .Params.showMailingList}}
     <div class="mx-auto max-w-lg h-auto">
-        {{ partial "subscription/mailerlite.html" . }}
+        {{ partialCached "subscription/mailerlite.html" . }}
     </div>
     {{end}}
 
     {{ "<!-- Being Article List Section -->" | safeHTML }}
 
     {{ "<!-- Render List of files from Content -->" | safeHTML }}
+
     <div class="mt-8">
         {{ partial "articleLists.html" . }}
     </div>

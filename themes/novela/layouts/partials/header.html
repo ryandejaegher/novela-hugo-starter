@@ -7,12 +7,7 @@
       <span class="header-hidden">Navigate back to the homepage</span>
     </a>
 
-    <nav class="sidebar-nav">
-      {{ $currentPage := . }}
-      {{ range .Site.Menus.main }}
-      <a class="sidebar-nav-item p-2 text-indigo-400 {{ if $currentPage.IsMenuCurrent "main" . }}active{{ end }}" href="{{ .URL }}" title="{{ .Title }}">{{ .Name }}</a>
-      {{ end }}
-  </nav>
+{{ partial "simple-nav.html" . }}
  
   <!--
     <div class="nav-controls">
