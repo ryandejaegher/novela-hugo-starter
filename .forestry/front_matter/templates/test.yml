@@ -1,0 +1,55 @@
+---
+label: Test
+hide_body: false
+fields:
+- type: text
+  name: title
+  label: title
+- type: text
+  name: excerpt
+  label: excerpt
+- type: text
+  name: description
+  label: description
+- type: text
+  name: hero
+  label: hero
+- type: datetime
+  name: date
+  label: date
+- type: list
+  name: authors
+  label: authors
+- type: list
+  name: categories
+  label: categories
+- type: list
+  name: tags
+  label: tags
+- type: text
+  name: series
+  label: series
+- type: boolean
+  name: codeHighlighting
+  label: codeHighlighting
+- type: text
+  name: showMailingList
+  label: showMailingList
+- type: boolean
+  name: showDisqus
+  label: showDisqus
+- type: boolean
+  name: showRelated
+  label: showRelated
+- type: boolean
+  name: showTags
+  label: showTags
+- type: boolean
+  name: showCategories
+  label: showCategories
+- type: boolean
+  name: robotsdisallow
+  label: robotsdisallow
+- type: boolean
+  name: showPrevNext
+  label: showPrevNext
