@@ -1,4 +1,7 @@
 {{ define "main" }}
+
+{{ "<!-- Start _default/list.html Template -->" | safeHTML }}
+
 <div class="container mx-auto">
     <h1 class="text-3xl md:text-5xl md:mt-16 font-bold mt-8 ">{{.Params.Title}}</h1>
     <div class="mt-8">
@@ -8,13 +11,15 @@
     {{ partial "subscription/squarespace-subscription.html" . }}
 {{ end }}
 
-<!-- Begin Article List Section -->
-<div class="mt-8">
-    {{ $paginator := .Paginate (.Data.Pages) }}
+{{ "<!-- Begin Article List Section -->" | safeHTML }}
 
-    <!-- Render List of files from Content/Squarespace -->
+<div class="mt-8">
+    {{ $paginator := .Paginate (.RegularPages) }}
+
+    {{ "<!-- Render List of files from Content -->" | safeHTML }}
     
     {{ range $paginator.Pages }}
+
     <article class="flex flex-col w-full md:w-full mt-4">
         <h3 class="text-lg md:text-xl">
             <a href="{{.Permalink}}" class="text-indigo-600 hover:text-indigo-800">{{.Title}}</a>
@@ -27,12 +32,14 @@
     {{ end }}   
 </div>
 
-<!-- End Article List Section --> 
+{{ "<!-- End Article List Section -->" | safeHTML }}
 
 <!-- Hugo's default pagination template. -->
 <div class="">
 {{ partial "paginator/paginator.html" . }}
 </div>
 </div>
+
+{{ "<!-- End _default/list.html Template -->" | safeHTML }}
 
 {{ end }}

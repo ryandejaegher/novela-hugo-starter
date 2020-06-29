@@ -47,7 +47,6 @@ params:
   addSnipcart: false
   siteDebug: true
   mainSections:
-  - squarespace-tutorials
   - thoughts
   mainCategories:
   - squarespace

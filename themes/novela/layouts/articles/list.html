@@ -1,20 +1,24 @@
 {{ define "main" }}
-{{"<!-- Begin _default/taxonomy.html -->" | safeHTML }}
+
+{{ "<!-- Start articles/list.html Template -->" | safeHTML }}
+
 <div class="container mx-auto">
-    <h1 class="text-3xl md:text-5xl md:mt-16 font-bold mt-8 ">{{.Params.Title | title}}</h1>
+    <h1 class="text-3xl md:text-5xl md:mt-16 font-bold mt-8 ">{{.Params.Title}}</h1>
     <div class="mt-8">
         {{.Content}}
     </div>
-
 {{if .Params.showMailingList }}
     {{ partial "subscription/squarespace-subscription.html" . }}
 {{ end }}
+{{ "<!-- Start Article List Section -->" | safeHTML }}
 
-<!-- Begin Article List Section -->
 <div class="mt-8">
-    {{ $paginator := .Paginate (.Data.Pages) }}
+    {{ $paginator := .Paginate (.RegularPagesRecursive) }}
 
+    {{ "<!-- Render List of files from Content -->" | safeHTML }}
+    
     {{ range $paginator.Pages }}
+    
     <article class="flex flex-col w-full md:w-full mt-4">
         <h3 class="text-lg md:text-xl">
             <a href="{{.Permalink}}" class="text-indigo-600 hover:text-indigo-800">{{.Title}}</a>
@@ -27,7 +31,7 @@
     {{ end }}   
 </div>
 
-<!-- End Article List Section --> 
+{{ "<!-- End Article List Section -->" | safeHTML }}
 
 <!-- Hugo's default pagination template. -->
 <div class="">
@@ -35,5 +39,6 @@
 </div>
 </div>
 
-{{"<!-- End taxonomy/series.html -->" | safeHTML }}
+{{ "<!-- End articles/list.html Template -->" | safeHTML }}
+
 {{ end }}

@@ -1,7 +1,8 @@
 {{ define "main" }}
-{{"<!-- Begin _default/taxonomy.html -->" | safeHTML }}
+
+{{"<!-- Begin _default/tag.html -->" | safeHTML }}
 <div class="container mx-auto">
-    <h1 class="text-3xl md:text-5xl md:mt-16 font-bold mt-8 ">{{.Params.Title | title}}</h1>
+    <h1 class="text-3xl md:text-5xl md:mt-16 font-bold mt-8 ">Tagged: {{.Params.Title}}</h1>
     <div class="mt-8">
         {{.Content}}
     </div>
@@ -12,8 +13,7 @@
 
 <!-- Begin Article List Section -->
 <div class="mt-8">
-    {{ $paginator := .Paginate (.Data.Pages) }}
-
+    {{ $paginator := .Paginate ( .Data.Pages ) }}
     {{ range $paginator.Pages }}
     <article class="flex flex-col w-full md:w-full mt-4">
         <h3 class="text-lg md:text-xl">
@@ -35,5 +35,5 @@
 </div>
 </div>
 
-{{"<!-- End taxonomy/series.html -->" | safeHTML }}
-{{ end }}
+{{"<!-- End _default/tag.html -->" | safeHTML }}
+  {{ end }}

@@ -1,10 +1,5 @@
 ---
 title: Squarespace Tutorials
-excerpt: 
-showMailingList: false
-description: 
-draft: true
-
 ---
 
 *What the hell is CSS?* *Why doesn't my code work?* **Don't worry, I got you!**

@@ -8,7 +8,7 @@ tags:
     - personal development
 authors:
     - Ryan Dejaegher
-draft: true
+draft: false
 ---
 
 What happens when ou write stuf here how long does it end up being and what happens when it's realy long.

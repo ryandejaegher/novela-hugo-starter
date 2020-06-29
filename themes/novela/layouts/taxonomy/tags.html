@@ -1,4 +1,6 @@
 {{ define "main" }}
+
+{{"<!-- Begin taxonomy/tag.html -->" | safeHTML }}
 <div class="container mx-auto">
     <h1 class="text-3xl md:text-5xl md:mt-16 font-bold mt-8 ">Tagged: {{.Params.Title}}</h1>
     <div class="mt-8">
@@ -12,7 +14,6 @@
 <!-- Begin Article List Section -->
 <div class="mt-8">
     {{ $paginator := .Paginate ( .Data.Pages ) }}
-    <!-- Render List of files from Content/Squarespace -->
     {{ range $paginator.Pages }}
     <article class="flex flex-col w-full md:w-full mt-4">
         <h3 class="text-lg md:text-xl">
@@ -33,4 +34,6 @@
 {{ partial "paginator/paginator.html" . }}
 </div>
 </div>
+
+{{"<!-- End taxonomy/tag.html -->" | safeHTML }}
   {{ end }}
