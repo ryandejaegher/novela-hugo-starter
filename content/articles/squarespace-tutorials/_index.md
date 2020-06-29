@@ -1,5 +1,6 @@
 ---
 title: Squarespace Tutorials
+url: squarespace-tutorials
 ---
 
 *What the hell is CSS?* *Why doesn't my code work?* **Don't worry, I got you!**

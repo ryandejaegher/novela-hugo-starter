@@ -9,8 +9,6 @@ pygmentsstyle: monokai
 theme: novela
 permalinks:
   pages: "/:title/"
-  squarespace-tutorials: "/:title/"
-  categories: "/:title/"
   articles: "/:title/"
 disqusShortname: ryandejaegher
 menu:
@@ -19,14 +17,23 @@ menu:
     name: Articles
     title: Articles
     weight: 1
-    identifier: articles
+    identifier: "articles"
+  - url: "/squarespace-tutorials"
+    name: "Squarespace Tutorials"
+    title: "Squarespace Tutorials"
+    identifier: "squarespace-tutorials"
+
+
 markup:
   defaultMarkdownHandler: goldmark
   goldmark:
     extensions:
+      footnote: true
       typographer: true
     parser:
       attribute: true
+      autoHeadingID: true
+      autoHeadingIDType: github
     renderer:
       unsafe: true
   tableOfContents:

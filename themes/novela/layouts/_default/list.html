@@ -4,40 +4,43 @@
 
 <div class="container mx-auto">
     <h1 class="text-3xl md:text-5xl md:mt-16 font-bold mt-8 ">{{.Params.Title}}</h1>
-    <div class="mt-8">
+    <div class="mt-8 space-y-4">
         {{.Content}}
     </div>
-{{if .Params.showMailingList }}
-    {{ partial "subscription/squarespace-subscription.html" . }}
-{{ end }}
 
-{{ "<!-- Begin Article List Section -->" | safeHTML }}
+    {{if .Params.showMailingList}}
+    <div class="mx-auto max-w-lg h-auto">
+        {{ partial "subscription/mailerlite.html" . }}
+    </div>
+    {{end}}
 
-<div class="mt-8">
-    {{ $paginator := .Paginate (.RegularPages) }}
+    {{ "<!-- Begin Article List Section -->" | safeHTML }}
 
-    {{ "<!-- Render List of files from Content -->" | safeHTML }}
-    
-    {{ range $paginator.Pages }}
+    <div class="mt-8">
+        {{ $paginator := .Paginate (.RegularPages) }}
 
-    <article class="flex flex-col w-full md:w-full mt-4">
-        <h3 class="text-lg md:text-xl">
-            <a href="{{.Permalink}}" class="text-indigo-600 hover:text-indigo-800">{{.Title}}</a>
-        </h3>
-        <div class="flex text-sm space-x-2 text-gray-500 mt-1">
-            {{partial "taxonomy/post-tags.html" . }}
-        </div>
-    </article>
-    
-    {{ end }}   
-</div>
+        {{ "<!-- Render List of files from Content -->" | safeHTML }}
 
-{{ "<!-- End Article List Section -->" | safeHTML }}
+        {{ range $paginator.Pages }}
 
-<!-- Hugo's default pagination template. -->
-<div class="">
-{{ partial "paginator/paginator.html" . }}
-</div>
+        <article class="flex flex-col w-full md:w-full mt-4">
+            <h3 class="text-lg md:text-xl">
+                <a href="{{.Permalink}}" class="text-indigo-600 hover:text-indigo-800">{{.Title}}</a>
+            </h3>
+            <div class="flex text-sm space-x-2 text-gray-500 mt-1">
+                {{partial "taxonomy/post-tags.html" . }}
+            </div>
+        </article>
+
+        {{ end }}
+    </div>
+
+    {{ "<!-- End Article List Section -->" | safeHTML }}
+
+    <!-- Hugo's default pagination template. -->
+    <div class="">
+        {{ partial "paginator/paginator.html" . }}
+    </div>
 </div>
 
 {{ "<!-- End _default/list.html Template -->" | safeHTML }}
