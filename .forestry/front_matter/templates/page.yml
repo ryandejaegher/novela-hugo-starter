@@ -8,3 +8,10 @@ fields:
     required: false
   label: Title
   description: Enter your page title
+- name: blocks
+  type: blocks
+  label: Blocks
+  template_types: []
+  config:
+    min: 
+    max: 
