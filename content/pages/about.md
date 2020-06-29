@@ -1,5 +1,28 @@
 ---
 title: About
+blocks:
+- template: page-hero
+  heading: ''
+  subheader: ''
+  background_image: ''
+  size: ''
+excerpt: ''
+description: ''
+hero: ''
+date: ''
+authors: []
+categories: []
+tags: []
+series: ''
+codeHighlighting: false
+showMailingList: ''
+showDisqus: false
+showRelated: false
+showTags: false
+showCategories: false
+robotsdisallow: false
+showPrevNext: false
+show_post_config: false
 
 ---
 ## Heading 1

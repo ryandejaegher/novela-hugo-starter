@@ -27,3 +27,5 @@ fields:
   showOnly:
     field: show_post_config
     value: true
+pages:
+- content/pages/about.md
