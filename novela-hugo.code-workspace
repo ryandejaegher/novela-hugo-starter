@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "content"
+		},
+		{
+			"path": "tailwind"
+		},
+		{
+			"path": "themes/novela/layouts"
+		}
+	]
+}
