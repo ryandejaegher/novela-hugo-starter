@@ -1,0 +1,27 @@
+{{ if eq .Params.mailerlite_form "squarespace" }}
+
+{{"<!--Squarespace Form-->" | safeHTML}}
+<div class="ml-form-embed"
+data-account="1940864:r4l1s1g0j7"
+data-form="1980410:l2v5u2">
+</div>
+
+{{ end }}
+
+{{ if eq .Params.mailerlite_form "css" }}
+{{"<!--CSS Form-->" | safeHTML}}
+<div class="ml-form-embed"
+  data-account="1940864:r4l1s1g0j7"
+  data-form="2269577:s8s8n0">
+</div>
+{{end}}
+
+
+{{ if eq .Params.mailerlite_form "shopify" }}
+{{"<!--Shopify Form-->" | safeHTML}}
+<div class="ml-form-embed"
+  data-account="1940864:r4l1s1g0j7"
+  data-form="2269573:b0j3q8">
+</div>
+
+{{end}}

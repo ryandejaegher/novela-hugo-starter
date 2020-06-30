@@ -17,7 +17,7 @@ categories: []
 tags: []
 series: ''
 codeHighlighting: false
-showMailingList: ''
+showMailingList: true
 showDisqus: false
 showRelated: false
 showTags: false

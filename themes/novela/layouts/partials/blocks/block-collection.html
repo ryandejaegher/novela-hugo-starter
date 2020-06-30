@@ -1,3 +1,4 @@
 {{- range .Params.blocks -}}
 {{- if eq .template "page-hero" -}}{{ partial "blocks/page-hero" (dict "Params" .) }}{{- end -}}
+{{- if eq .template "mailerlite" -}}{{ partial "blocks/mailerlite" (dict "Params" .) }}{{- end -}}
 {{- end -}}
