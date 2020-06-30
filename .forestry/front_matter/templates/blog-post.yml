@@ -64,7 +64,8 @@ fields:
   description: 'Enable to show related content for this post. '
 - type: boolean
   name: showCategories
-  label: showCategories
+  label: Show Categories
+  description: 'Enable to show this articles categories. '
 - type: boolean
   name: robotsdisallow
   label: robotsdisallow
