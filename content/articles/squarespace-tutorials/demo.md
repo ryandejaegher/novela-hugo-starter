@@ -1,8 +1,20 @@
 +++
-authors = []
-date = ""
+authors = ["Ryan Dejaegher"]
+categories = []
+codeHighlighting = false
+date = 2020-06-30T17:00:00Z
+description = ""
 excerpt = ""
 hero = "/uploads/screen-shot-2020-06-30-at-8-56-22-am.png"
+robotsdisallow = false
+series = ""
+showCategories = false
+showDisqus = false
+showMailingList = ""
+showPrevNext = false
+showRelated = false
+showTags = false
+tags = []
 timeToRead = 10
 title = "Demo"
 

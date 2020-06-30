@@ -74,3 +74,5 @@ fields:
   name: showPrevNext
   label: showPrevNext
   description: 'Enable links to previous/next article in this section. '
+pages:
+- content/articles/squarespace-tutorials/demo.md
