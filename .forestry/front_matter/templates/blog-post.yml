@@ -4,19 +4,22 @@ hide_body: false
 fields:
 - type: text
   name: title
-  label: title
+  label: Title
+  description: Enter the title of the article
 - type: text
   name: excerpt
-  label: excerpt
+  label: Excerpt
+  description: 'Optional excerpt to display an article preview in list layouts. '
 - type: text
   name: description
-  label: description
-- type: text
-  name: hero
-  label: hero
+  label: Description
+  description: This is the description that will show up for SEO.
 - type: datetime
   name: date
-  label: date
+  label: Publish Date
+  default: now
+  config:
+    required: true
 - type: list
   name: authors
   label: authors
@@ -26,30 +29,48 @@ fields:
 - type: list
   name: tags
   label: tags
+- type: boolean
+  name: showTags
+  label: Show Tags
+  description: 'Enable to show this articles tags. '
 - type: text
   name: series
   label: series
 - type: boolean
   name: codeHighlighting
   label: codeHighlighting
-- type: text
-  name: showMailingList
-  label: showMailingList
+- name: showMailingList
+  type: select
+  default: []
+  config:
+    required: false
+    options:
+    - shopify
+    - squarespace
+    - css
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: Show Mailing List
 - type: boolean
   name: showDisqus
   label: showDisqus
+  description: 'Show comments for this post. '
 - type: boolean
   name: showRelated
-  label: showRelated
-- type: boolean
-  name: showTags
-  label: showTags
+  label: Show Related Articles
+  description: 'Enable to show related content for this post. '
 - type: boolean
   name: showCategories
   label: showCategories
 - type: boolean
   name: robotsdisallow
   label: robotsdisallow
+  hidden: true
+  default: false
 - type: boolean
   name: showPrevNext
   label: showPrevNext
+  description: 'Enable links to previous/next article in this section. '
