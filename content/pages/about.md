@@ -6,6 +6,11 @@ blocks:
   subheader: ''
   background_image: ''
   size: ''
+- template: page-hero
+  heading: Real Talk
+  subheader: ''
+  background_image: ''
+  size: ''
 excerpt: ''
 description: ''
 hero: ''
