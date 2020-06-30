@@ -6,8 +6,6 @@ description: ''
 hero: ''
 date: ''
 authors: []
-categories: []
-tags: []
 series: ''
 codeHighlighting: false
 showMailingList: true
@@ -18,6 +16,7 @@ showCategories: false
 robotsdisallow: false
 showPrevNext: false
 show_post_config: false
+layout: 'blocks'
 
 ---
 ## Heading 1
