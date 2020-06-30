@@ -1,4 +1,8 @@
 ---
 label: List
 hide_body: true
-fields: []
+fields:
+- name: list
+  type: field_group
+  config: {}
+  label: List
