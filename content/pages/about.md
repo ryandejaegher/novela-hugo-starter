@@ -6,6 +6,11 @@ blocks:
   subheader: ''
   background_image: ''
   size: ''
+- template: page-hero
+  size: []
+  heading: ''
+  subheader: ''
+  background_image: ''
 excerpt: ''
 description: ''
 hero: ''
