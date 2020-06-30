@@ -6,12 +6,13 @@ module.exports = {
         require('postcss-import'),
         require('tailwindcss'),
         require('autoprefixer'),
-        purgecss({
-            content: ['themes/novela/layouts/**/*.html'],
-            defaultExtractor: content => content.match(/[\w-/:]+(?<!:)/g) || []
-            }),
         postcssNesting
     ]
 }
 
+
+// purgecss({
+//     content: ['themes/novela/layouts/**/*.html'],
+//     defaultExtractor: content => content.match(/[\w-/:]+(?<!:)/g) || []
+//     })
 
