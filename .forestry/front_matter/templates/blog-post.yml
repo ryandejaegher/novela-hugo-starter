@@ -23,22 +23,29 @@ fields:
 - type: list
   name: authors
   label: authors
+- type: boolean
+  name: showCategories
+  label: Show Categories
+  description: 'Enable to show this articles categories. '
 - type: list
   name: categories
   label: categories
-- type: list
-  name: tags
-  label: tags
+  showOnly:
+    value: true
 - type: boolean
   name: showTags
   label: Show Tags
   description: 'Enable to show this articles tags. '
+- type: list
+  name: tags
+  label: tags
 - type: text
   name: series
   label: series
 - type: boolean
   name: codeHighlighting
-  label: codeHighlighting
+  label: Show Code Highlighting
+  description: Enable to add code highlighting to this article.
 - name: showMailingList
   type: select
   default: []
@@ -56,16 +63,12 @@ fields:
   label: Show Mailing List
 - type: boolean
   name: showDisqus
-  label: showDisqus
+  label: Show Disqus Comments
   description: 'Show comments for this post. '
 - type: boolean
   name: showRelated
   label: Show Related Articles
   description: 'Enable to show related content for this post. '
-- type: boolean
-  name: showCategories
-  label: Show Categories
-  description: 'Enable to show this articles categories. '
 - type: boolean
   name: robotsdisallow
   label: robotsdisallow
