@@ -11,7 +11,7 @@ categories:
 tags:
 - squarespace
 - css
-series: Intro To CSS
+series: 'Intro To CSS'
 codeHighlighting: true
 showMailingList: squarespace
 showDisqus: true
