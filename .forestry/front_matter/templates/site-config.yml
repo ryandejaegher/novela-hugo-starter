@@ -5,3 +5,5 @@ fields:
 - name: menu_color
   type: boolean
   label: Menu Color
+pages:
+- config/_default/Site Config.yaml
