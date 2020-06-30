@@ -3,7 +3,7 @@ authors = []
 date = ""
 excerpt = ""
 hero = "/uploads/screen-shot-2020-06-30-at-8-56-22-am.png"
-timeToRead = nil
+timeToRead = 0
 title = "Demo"
 
 +++
