@@ -1,13 +1,13 @@
 {{ define "main" }}
-
+{{"<!--Start _default/single.html-->" | safeHTML}}
 <section class="section narrow">
 
     {{ partial "page/hero.html" . }}
-
+    {{ partial "blocks/block-collection.html" . }}
     <article  id="articleContent" class="post-content">
         {{ .Content }}
     </article>
     {{ .TableOfContents }}
 </section>
-
+{{"<!--End _default/single.html-->" | safeHTML}}
 {{ end }}

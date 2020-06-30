@@ -1,0 +1,3 @@
+{{- range .Params.blocks -}}
+{{- if eq .template "page-hero" -}}{{ partial "blocks/page-hero" (dict "Params" .) }}{{- end -}}
+{{- end -}}
