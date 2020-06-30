@@ -1,6 +1,13 @@
 ---
 title: About
-blocks: []
+blocks:
+- template: page-hero
+  heading: Wow
+  subheader: ''
+  background_image: ''
+  size: ''
+- template: mailerlite
+  mailerlite_form: squarespace
 excerpt: ''
 description: ''
 hero: ''
