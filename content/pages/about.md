@@ -2,15 +2,10 @@
 title: About
 blocks:
 - template: page-hero
-  heading: ''
+  heading: Sick
   subheader: ''
   background_image: ''
   size: ''
-- template: page-hero
-  size: []
-  heading: ''
-  subheader: ''
-  background_image: ''
 excerpt: ''
 description: ''
 hero: ''
