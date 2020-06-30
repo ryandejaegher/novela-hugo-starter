@@ -7,7 +7,7 @@ blocks:
   background_image: ''
   size: ''
 - template: mailerlite
-  mailerlite_form: shopify
+  mailerlite_form: css
 excerpt: ''
 description: ''
 hero: ''
