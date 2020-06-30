@@ -1,16 +1,6 @@
 ---
 title: About
-blocks:
-- template: page-hero
-  heading: Sick
-  subheader: ''
-  background_image: ''
-  size: ''
-- template: page-hero
-  heading: Real Talk
-  subheader: ''
-  background_image: ''
-  size: ''
+blocks: []
 excerpt: ''
 description: ''
 hero: ''
