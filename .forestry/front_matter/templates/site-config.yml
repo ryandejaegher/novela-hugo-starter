@@ -1,4 +1,7 @@
 ---
 label: Site Config
 hide_body: true
-fields: []
+fields:
+- name: menu_color
+  type: boolean
+  label: menu color
