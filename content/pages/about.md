@@ -33,5 +33,3 @@ Nulla vitae elit libero, a pharetra augue. Cras mattis consectetur purus sit ame
 ## Heading 3
 
 Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Vestibulum id ligula porta felis euismod semper. Etiam porta sem malesuada magna mollis euismod. Integer posuere erat a ante venenatis dapibus posuere velit aliquet.
-
-<h2>YO</h2>
