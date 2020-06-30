@@ -18,7 +18,7 @@
     {{ end }}
 
 
-    {{ $tailwind := resources.Get "css/tailwind.css" }}
+    {{ $tailwind := resources.Get "css/tailwind.css" | minify }}
     {{ with .Site.Params.addSnipcart }}
     <link rel="stylesheet" href="https://cdn.snipcart.com/themes/v3.0.12/default/snipcart.css" />
     {{ end }}
