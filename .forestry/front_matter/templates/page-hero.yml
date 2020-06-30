@@ -20,7 +20,7 @@ fields:
   label: Background Image
 - name: size
   type: select
-  default: []
+  default: ''
   config:
     required: false
     options:
