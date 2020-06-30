@@ -1,5 +1,5 @@
 ---
-label: cMailerlite
+label: Mailerlite
 hide_body: false
 fields:
 - name: mailerlite_form
