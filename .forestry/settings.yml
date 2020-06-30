@@ -29,7 +29,7 @@ sections:
   templates:
   - author
 - type: directory
-  path: config/_default
+  path: config
   label: Config
   create: all
   match: "**/*"
