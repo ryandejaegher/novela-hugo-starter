@@ -25,6 +25,7 @@
         {{ partial "footer.html" . }}
         {{ end }}
     </div>
+    
     {{ with .Site.Params.addNovelaScripts }}
     {{ $script := resources.Get "js/toggleLogos.js" }}
     <script src="{{ $script.RelPermalink }}"></script>
