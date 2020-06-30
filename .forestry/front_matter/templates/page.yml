@@ -17,8 +17,5 @@ fields:
   config:
     min: 
     max: 
-- name: show_post_config
-  type: boolean
-  label: Show Post Config
 pages:
 - content/pages/about.md
