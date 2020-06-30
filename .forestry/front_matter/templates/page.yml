@@ -13,6 +13,7 @@ fields:
   label: Blocks
   template_types:
   - page-hero
+  - mailerlite
   config:
     min: 
     max: 
