@@ -6,15 +6,6 @@ command = "hugo --gc --minify"
 [build.environment]
 HUGO_VERSION = "0.62.2"
 
-[[headers]]
-  for = "/*"
-  [headers.values]
-	cache-control = '''
-	max-age=0,
-	no-cache,
-	no-store,
-	must-revalidate'''
-
 
 
 # This is a starter template for Netlify builds. See the following links for more:
