@@ -19,13 +19,5 @@ fields:
 - name: show_post_config
   type: boolean
   label: Show Post Config
-- name: post_config
-  type: include
-  config: {}
-  template: test
-  label: Post Config
-  showOnly:
-    field: show_post_config
-    value: true
 pages:
 - content/pages/about.md
