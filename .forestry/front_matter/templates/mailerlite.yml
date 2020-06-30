@@ -1,4 +1,19 @@
 ---
 label: Mailerlite
 hide_body: false
-fields: []
+fields:
+- name: mailerlite_form
+  type: select
+  default: []
+  config:
+    required: false
+    options:
+    - squarespace
+    - shopify
+    - css
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: Mailerlite Form
