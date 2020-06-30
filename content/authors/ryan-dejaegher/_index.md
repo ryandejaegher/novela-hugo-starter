@@ -1,8 +1,7 @@
 ---
 title: Ryan Dejaegher
-bio: 
-  Hi I'm Ryan Dejaegher. This is my space to navigate web development.
-avatar: "/images/Facebook_Profile Picture.png"
+bio: Hi I'm Ryan Dejaegher. This is my space to navigate web development.
+avatar: https://res.cloudinary.com/damfsuupo/image/upload/f_auto,q_auto,c_scale,w_auto:100,dpr_auto/v1593540102/Ryan%20Test/Facebook_Profile_Picture_hpjie3.png
 featured: false
 social:
 - title: facebook
