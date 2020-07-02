@@ -13,17 +13,19 @@ permalinks:
 disqusShortname: ryandejaegher
 menu:
   main:
+  - url: https://apple.com
+    name: Wow
+    weight: 3
+  - url: "/squarespace-tutorials"
+    name: Squarespace Tutorials
+    title: Squarespace Tutorials
+    weight: 1
+    identifier: squarespace-tutorials
   - url: "/articles/"
     name: Articles
     title: Articles
-    weight: 1
-    identifier: "articles"
-  - url: "/squarespace-tutorials"
-    name: "Squarespace Tutorials"
-    title: "Squarespace Tutorials"
-    identifier: "squarespace-tutorials"
-
-
+    weight: 2
+    identifier: articles
 markup:
   defaultMarkdownHandler: goldmark
   goldmark:
